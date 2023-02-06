@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function PortfolioCompanies() {
 	return (
-		<section className="py-5">
-			<div className="container">
+		<section>
+			<div className="container ">
 				<small className="text-theme">PORTFOLIO</small>
 				<h3 className='text-theme-dark'>Our Portfolio Companies</h3>
 				<div className="d-flex my-5" style={{ overflowX: 'scroll' }}>
