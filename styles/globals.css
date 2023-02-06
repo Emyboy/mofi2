@@ -23,7 +23,11 @@
 .bg-gray{
     background-color: var(--gray-color) !important;
 }
-
+.bg-img {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
 
 
 
