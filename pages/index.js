@@ -1,5 +1,6 @@
 import InvestInToday from '@/component/HomePage/InvestInToday'
 import Portfolio from '@/component/HomePage/Portfolio'
+import PortfolioCompanies from '@/component/HomePage/PortfolioCompanies'
 import Transformation from '@/component/HomePage/Transformation'
 import Layout from '@/component/Layout/Layout'
 import Link from 'next/link'
@@ -59,6 +60,7 @@ export default function index() {
 				<Transformation />
 				<InvestInToday />
 				<Portfolio />
+				<PortfolioCompanies />
 			</div>
 		</Layout>
 	)

@@ -1,5 +1,6 @@
 :root {
     --theme-color: #1E944F;
+    --theme-color-dark: #0B7938;
     --theme-color-light: #EAFEF1;
     --gray-color: #F2F5F7;
     --muted-color: #667085;
@@ -17,6 +18,9 @@
 .text-theme {
     color: var(--theme-color) !important;
 }
+.text-theme-dark {
+    color: var(--theme-color-dark) !important;
+}
 .bg-theme-light {
     background-color: var(--theme-color-light) !important;
 }
@@ -28,7 +32,9 @@
     background-size: cover !important;
     background-repeat: no-repeat !important;
 }
-
+.overlay {
+    background-color: #0b3b1f8b;
+}
 
 
 /* Bootstrap Override */
