@@ -1,3 +1,4 @@
+import Transformation from '@/component/HomePage/Transformation'
 import Layout from '@/component/Layout/Layout'
 import Link from 'next/link'
 import React from 'react'
@@ -10,6 +11,7 @@ export default function index() {
 					className="page-title"
 					style={{
 						backgroundImage: `url(/img/jumbo-img.png)`,
+						paddingBottom: '20vh'
 					}}
 				>
 					<div className="auto-container">
@@ -52,6 +54,7 @@ export default function index() {
 						</div>
 					</div>
 				</section>
+				<Transformation />
 			</div>
 		</Layout>
 	)

@@ -1,9 +1,14 @@
 :root {
     --theme-color: #1E944F;
+    --theme-color-light: #EAFEF1;
+    --gray-color: #F2F5F7;
+    --muted-color: #667085;
+    --dark-color: #101828;
 }
 
 * {
     font-family: 'Montserrat', sans-serif !important;
+    color: var(--dark-color);
 }
 
 .bg-theme {
@@ -12,6 +17,30 @@
 .text-theme {
     color: var(--theme-color) !important;
 }
+.bg-theme-light {
+    background-color: var(--theme-color-light) !important;
+}
+.bg-gray{
+    background-color: var(--gray-color) !important;
+}
+
+
+
+
+/* Bootstrap Override */
 .rounded {
     border-radius: 10px !important;
+}
+.card {
+    border-radius: 0px;
+    border: none;
+}
+.font-weight-normal {
+    font-weight: 500 !important;
+}
+.text-muted {
+    color: var(--muted-color) !important;
+}
+.text-dark {
+
 }
