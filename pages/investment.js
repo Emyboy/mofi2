@@ -7,7 +7,7 @@ export default function philosophy() {
 	return (
 		<Layout>
 			<PhilosophyHero />
-      <PhilosophyPortfolioCompanies />
+			<PhilosophyPortfolioCompanies />
 		</Layout>
 	)
 }
