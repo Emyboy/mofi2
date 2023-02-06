@@ -44,7 +44,7 @@ export default function Header() {
 								</Link>
 							</li>
 							<li className=" ">
-								<Link className="text-dark" href="/governance">
+								<Link className="text-dark" href="/investment">
 									Investment
 								</Link>
 							</li>
