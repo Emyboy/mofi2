@@ -6,7 +6,7 @@ export default function MissionAndVision() {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-6 col-sm-12">
-						<div className="card bg-gray mb-3">
+						<div className="card bg-gray mb-3 h-100">
 							<div className="card-body p-5">
 								<h4 className="font-weight-normal mb-4">
 									<img src={`/img/dart.svg`} /> Vision
@@ -19,6 +19,8 @@ export default function MissionAndVision() {
 								</p>
 							</div>
 						</div>
+					</div>
+					<div className="col-md-6 col-sm-12">
 						<div className="card bg-gray ">
 							<div className="card-body p-5">
 								<h4 className="font-weight-normal mb-4">
@@ -63,7 +65,7 @@ export default function MissionAndVision() {
 							</div>
 						</div>
 					</div>
-					<div className="col-md-6 col-sm-12">
+					{/* <div className="col-md-6 col-sm-12">
 						<div className="card bg-gray h-100">
 							<div className="card-body p-5">
 								<h4 className="font-weight-normal mb-4">
@@ -118,7 +120,7 @@ export default function MissionAndVision() {
 								</ul>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>
