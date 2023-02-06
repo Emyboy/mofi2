@@ -1,5 +1,6 @@
 import AboutUsHero from '@/component/AboutUs/AboutUsHero'
 import MissionAndVision from '@/component/AboutUs/MissionAndVision'
+import TheScope from '@/component/AboutUs/TheScope'
 import Layout from '@/component/Layout/Layout'
 import React from 'react'
 
@@ -26,6 +27,7 @@ export default function about() {
 				</div>
 			</div>
 			<MissionAndVision />
+			<TheScope />
 		</Layout>
 	)
 }

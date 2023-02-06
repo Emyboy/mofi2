@@ -67,7 +67,8 @@ export default function MissionAndVision() {
 						<div className="card bg-gray h-100">
 							<div className="card-body p-5">
 								<h4 className="font-weight-normal mb-4">
-									<img src={`/img/dart.svg`} /> Vision
+									<img src={`/img/dart.svg`} /> Strategic
+									Pillars
 								</h4>
 								<p>
 									To become a world-class active investment
