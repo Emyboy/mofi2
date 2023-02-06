@@ -2,8 +2,35 @@ import React from 'react'
 import Img from 'next/image'
 import Link from 'next/link'
 
-export default function Header() {
+export default function Header({}) {
 	const toggleSideNav = () => {}
+
+	const navs = [
+		{
+			name: 'Home',
+			route: '/',
+		},
+		{
+			name: 'About',
+			route: '/about',
+		},
+		{
+			name: 'About',
+			route: '/about',
+		},
+		{
+			name: 'Governance',
+			route: '/governance',
+		},
+		{
+			name: 'Investment',
+			route: '/investment',
+		},
+		{
+			name: 'Resources',
+			route: '/resources',
+		},
+	]
 
 	return (
 		<header className="navbar navbar-expand-lg navbar-light bg-light px-5 py-1">
@@ -15,6 +42,7 @@ export default function Header() {
 				aria-controls="navbarTogglerDemo01"
 				aria-expanded="false"
 				aria-label="Toggle navigation"
+				style={{ position: 'relative', left: '66vw' }}
 			>
 				<span className="navbar-toggler-icon"></span>
 			</button>
@@ -23,44 +51,36 @@ export default function Header() {
 				id="navbarTogglerDemo01"
 			>
 				<a className="navbar-brand" href="#">
-					<Img src='/img/logo.png' width={100} height={100} />
+					<Img src="/img/logo.png" width={100} height={100} />
 				</a>
 				<nav className="main-menu">
 					<div className="navbar-collapse show collapse clearfix">
 						<ul className="navigation clearfix">
-							<li className="current ">
-								<Link className="text-dark" href="/">
-									Home
-								</Link>
-							</li>
-							<li className="">
-								<Link className="text-dark" href="/about">
-									About
-								</Link>
-							</li>
-							<li className=" ">
-								<Link className="text-dark" href="/governance">
-									Governance
-								</Link>
-							</li>
-							<li className=" ">
-								<Link className="text-dark" href="/investment">
-									Investment
-								</Link>
-							</li>
-							<li className=" ">
-								<Link className="text-dark" href="/governance">
-									Resources
-								</Link>
-							</li>
+							{navs.map((val) => {
+								return (
+									<li>
+										<Link
+											className="text-dark"
+											href={val.route}
+										>
+											{val.name}
+										</Link>
+									</li>
+								)
+							})}
+
 							<li className="dropdown">
-								<a href="#" className='text-dark'>Dropdown</a>
+								<a href="#" className="text-dark">
+									Dropdown
+								</a>
 								<ul>
 									<li>
 										<a href="page-about.html">About</a>
 									</li>
 									<li className="dropdown">
-										<a href="#" className='text-dark'>Projects</a>
+										<a href="#" className="text-dark">
+											Projects
+										</a>
 										<ul>
 											<li>
 												<a href="page-projects.html">
@@ -78,7 +98,9 @@ export default function Header() {
 										</div>
 									</li>
 									<li className="dropdown">
-										<a href="#" className='text-dark'>Team</a>
+										<a href="#" className="text-dark">
+											Team
+										</a>
 										<ul>
 											<li>
 												<a href="page-team.html">
@@ -111,7 +133,6 @@ export default function Header() {
 									<i className="fa fa-angle-down"></i>
 								</div>
 							</li>
-							
 						</ul>
 					</div>
 				</nav>

@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function TopNews() {
 	return (
-		<section className="py-4">
+		<section className="pb-4">
 			<div className="container">
 				<span className="bg-theme-light text-theme p-2">News</span>
 				<h3 className="font-weight-normal mt-5">Top News</h3>
@@ -37,7 +37,7 @@ const EachNews = ({ text, link, img }) => {
 	return (
 		<div className="col-sm-12 col-md-4">
 			<div className="card bg-theme">
-				<div className="card-body text-white">
+				<div className="card-body p-4 text-white">
 					<p className="text-white">{text}</p>
 					<Link href={link || '/'} className="text-white">
 						Read More <ArrowRight color="white" />

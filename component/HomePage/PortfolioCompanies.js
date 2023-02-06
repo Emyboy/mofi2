@@ -4,7 +4,7 @@ import React from 'react'
 export default function PortfolioCompanies() {
 	return (
 		<section>
-			<div className="container ">
+			<div className="container pb-2">
 				<small className="text-theme">PORTFOLIO</small>
 				<h3 className='text-theme-dark'>Our Portfolio Companies</h3>
 				<div className="d-flex my-5" style={{ overflowX: 'scroll' }}>
