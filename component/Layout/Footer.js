@@ -61,7 +61,7 @@ export default function Footer() {
 							<div className="footer-widget contacts-widget">
 								<h6 className="widget-title">Contact</h6>
 								<div className="text">
-									"Tower 2 BOI Bldg, Plot 256 A O., Herbert
+									Tower 2 BOI Bldg, Plot 256 A O., Herbert
 									Macaulay Way, CBD, Abuja
 								</div>
 								<ul className="contact-info">
