@@ -1,0 +1,17 @@
+:root {
+    --theme-color: #1E944F;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.bg-theme {
+    background-color: var(--theme-color) !important;
+}
+.text-theme {
+    color: var(--theme-color) !important;
+}
+.rounded {
+    border-radius: 10px !important;
+}
