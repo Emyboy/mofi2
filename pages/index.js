@@ -15,7 +15,7 @@ export default function index() {
 					className="page-title"
 					style={{
 						backgroundImage: `url(/img/jumbo-img.png)`,
-						paddingBottom: '20vh'
+						paddingBottom: '26vh'
 					}}
 				>
 					<div className="auto-container">
