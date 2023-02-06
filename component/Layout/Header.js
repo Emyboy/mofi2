@@ -112,9 +112,6 @@ export default function Header() {
 								</div>
 							</li>
 							
-							<li>
-								<a href="page-contact.html">Get in Touch</a>
-							</li>
 						</ul>
 					</div>
 				</nav>

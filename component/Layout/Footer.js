@@ -1,103 +1,139 @@
+import Link from 'next/link'
 import React from 'react'
+import { BsFillTelephoneFill } from 'react-icons/bs'
+import { MdMail } from 'react-icons/md'
 
 export default function Footer() {
-  return (
-    <footer className="main-footer">
-		<div className="bg-pattern"></div>
-		<div className="auto-container">
-			<div className="subscribe-form">
-				<div className="title-column">
-					<h5 className="title"><i className="icon flaticon-licensing"></i> Subscribe now to get <br />latest updates</h5>
-				</div>
-				<div className="form-column">
-					<form method="post" action="#">
-						<div className="form-group">
-							<input type="email" name="email" className="email" value="" placeholder="Email Address" required="" />
-							<button type="button" className="theme-btn"><i className="fa fa-paper-plane"></i></button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
+	return (
+		<footer className="main-footer">
+			<div className="bg-pattern"></div>
 
-		<div className="widgets-section">
-			<div className="auto-container">
-				<div className="row">
-					<div className="footer-column col-xl-3 col-lg-12 col-md-6">
-						<div className="footer-widget about-widget">
-							<div className="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
-							<div className="text">Lorem ipsum dolor sit amet, consect etur adi pisicing elit sed do eiusmod tempor incididunt ut labore.</div>
-							<ul className="social-icon-two">
-								<li><a href="#"><i className="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i className="fab fa-facebook"></i></a></li>
-								<li><a href="#"><i className="fab fa-pinterest"></i></a></li>
-								<li><a href="#"><i className="fab fa-instagram"></i></a></li>
-							</ul>
+			<div className="widgets-section">
+				<div className="auto-container">
+					<div className="row">
+						<div className="footer-column col-xl-3 col-lg-4">
+							<div className="footer-widget links-widget">
+								<h6 className="widget-title">Explore</h6>
+								<ul className="user-links">
+									<li>
+										<Link href="#">Home</Link>
+									</li>
+									<li>
+										<Link href="#">About Us</Link>
+									</li>
+									<li>
+										<Link href="#">
+											Co-Operate Governance
+										</Link>
+									</li>
+								</ul>
+							</div>
 						</div>
-					</div>
-
-					<div className="footer-column col-xl-3 col-lg-4">
-						<div className="footer-widget links-widget">
-							<h6 className="widget-title">Explore</h6>
-							<ul className="user-links">
-								<li><a href="#">About Company</a></li>
-								<li><a href="#">Meet the Team</a></li>
-								<li><a href="#">News &amp; Media</a></li>
-								<li><a href="#">Our Projects</a></li>
-								<li><a href="#">Contact</a></li>
-							</ul>
+						<div className="footer-column col-xl-3 col-lg-4">
+							<div className="footer-widget links-widget">
+								<h6 className="widget-title">Quick Links</h6>
+								<ul className="user-links">
+									<li>
+										<Link href="#">
+											Our Investment Philosophy
+										</Link>
+									</li>
+									<li>
+										<Link href="#">
+											News, Media & Resources
+										</Link>
+									</li>
+								</ul>
+							</div>
 						</div>
-					</div>
+						<div className="footer-column col-xl-3 col-lg-4">
+							<div className="footer-widget links-widget">
+								<h6 className="widget-title">Support</h6>
+								<ul className="user-links">
+									<li>
+										<Link href="#">Give us feedback</Link>
+									</li>
+								</ul>
+							</div>
+						</div>
 
-					<div className="footer-column col-xl-3 col-lg-4 col-md-6">
-						<div className="footer-widget gallery-widget">
-							<h6 className="widget-title">Portfolio</h6>
-							<div className="widget-content">
-								<div className="outer clearfix">
-									<figure className="image">
-										<a href="#"><img src="images/resource/project-thumb-1.jpg" alt="" /></a>
-									</figure>
-									<figure className="image">
-										<a href="#"><img src="images/resource/project-thumb-2.jpg" alt="" /></a>
-									</figure>
-									<figure className="image">
-										<a href="#"><img src="images/resource/project-thumb-3.jpg" alt="" /></a>
-									</figure>
-									<figure className="image">
-										<a href="#"><img src="images/resource/project-thumb-4.jpg" alt="" /></a>
-									</figure>
-									<figure className="image">
-										<a href="#"><img src="images/resource/project-thumb-5.jpg" alt="" /></a>
-									</figure>
-									<figure className="image">
-										<a href="#"><img src="images/resource/project-thumb-6.jpg" alt="" /></a>
-									</figure>
+						<div className="footer-column col-xl-3 col-lg-4">
+							<div className="footer-widget contacts-widget">
+								<h6 className="widget-title">Contact</h6>
+								<div className="text">
+									"Tower 2 BOI Bldg, Plot 256 A O., Herbert
+									Macaulay Way, CBD, Abuja
 								</div>
+								<ul className="contact-info">
+									<li>
+										{/* <i className="las fa la-envelope-open text-theme"></i> */}
+										<a href="mailto:info@mofi.com.ng">
+											info@mofi.com.ng
+										</a>
+										<br />
+									</li>
+									<li>
+										{/* <BsFillTelephoneFill /> */}
+										<a href="tel:0916-194-9158">
+											0916-194-9158
+										</a>
+										<br />
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
 
-					<div className="footer-column col-xl-3 col-lg-4">
-						<div className="footer-widget contacts-widget">
-							<h6 className="widget-title">Contact</h6>
-							<div className="text">66 Road Broklyn Street, 600 New York, USA</div>
-							<ul className="contact-info">
-								<li><i className="fa fa-envelope"></i> <a href="mailto:needhelp@potisen.com">needhelp@company.com</a><br/></li>
-								<li><i className="fa fa-phone-square"></i> <a href="tel:+926668880000">+92 666 888 0000</a><br/></li>
+			<div className="footer-bottom">
+				<div className="auto-container">
+					<div className="inner-container row justify-content-between">
+						<div className="copyright-text col-lg-4 col-sm-12">
+							<img
+								alg="flag"
+								src="/img/flag.png"
+								className="mx-1 bg-white rounded-circle"
+							/>
+							© 2023 MOFI. All right reserved.
+						</div>
+						<div className="copyright-text col-lg-4 col-sm-12">
+							<ul className="nav">
+								<li className="nav-item d-flex">
+									<a
+										className="nav-link text-white fw-light"
+										aria-current="page"
+										href="#"
+									>
+										Twitter
+									</a>
+									<a
+										className="nav-link text-white fw-light"
+										aria-current="page"
+										href="#"
+									>
+										Instagram
+									</a>
+									<a
+										className="nav-link text-white fw-light"
+										aria-current="page"
+										href="#"
+									>
+										Facebook
+									</a>
+									<a
+										className="nav-link text-white fw-light"
+										aria-current="page"
+										href="#"
+									>
+										Linkedin
+									</a>
+								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-
-		<div className="footer-bottom">
-			<div className="auto-container">
-				<div className="inner-container">
-					<div className="copyright-text">© Copyright 2023 by  <a href="index.html">Company.com</a></div>
-				</div>
-			</div>
-		</div>
-	</footer>
-  )
+		</footer>
+	)
 }
