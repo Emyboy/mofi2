@@ -1,3 +1,4 @@
+import InvestInToday from '@/component/HomePage/InvestInToday'
 import Transformation from '@/component/HomePage/Transformation'
 import Layout from '@/component/Layout/Layout'
 import Link from 'next/link'
@@ -55,6 +56,7 @@ export default function index() {
 					</div>
 				</section>
 				<Transformation />
+				<InvestInToday />
 			</div>
 		</Layout>
 	)

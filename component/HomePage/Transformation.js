@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Transformation() {
 	return (
-		<section className="services-section pt-0">
+		<section className="services-section pt-0 pb-0">
 			<div className="container">
 				<div className="row">
 					<div className="col-sm-12 col-md-6">
