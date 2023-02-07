@@ -58,7 +58,7 @@ const EachCompany = ({ heading, subHeading, img }) => {
 				}}
 			>
 				<div className="text-center ">
-					<img src={img} width={190} />
+					<img src={img} width={200} />
 				</div>
 				<div
 					className="overlay p-4"

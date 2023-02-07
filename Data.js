@@ -227,5 +227,15 @@ export default {
 			category: `Financial Services`,
 			img: `https://www.devbankng.com/img/screenshot2.PNG`,
 		},
+		{
+			title: `Family Homes Fund Limited`,
+			category: `Financial Services`,
+			img: `https://cdn.vanguardngr.com/wp-content/uploads/2021/07/family-hmes-fund.png`,
+		},
+		{
+			title: `Capital Hotels Plc`,
+			category: `Services`,
+			img: `https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/ergkextegbfvar4kdtpu`,
+		},
 	],
 }
