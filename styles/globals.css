@@ -56,5 +56,5 @@
     color: var(--muted-color) !important;
 }
 .text-dark {
-
+    color: var(--dark-color)
 }
