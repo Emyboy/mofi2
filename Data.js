@@ -202,5 +202,30 @@ export default {
 			category: `Infrastructure`,
 			img: `https://images.africanfinancials.com/1458e1a1-ng-geregu-logo.png`,
 		},
+		{
+			title: `Kaduna Electricity Distribution Company`,
+			category: `Infrastructure`,
+			img: `https://tribuneonlineng.com/wp-content/uploads/2017/04/kedco.jpg`,
+		},
+		{
+			title: `Nigerian Bulk Electricity Trading Plc (NBET)`,
+			category: `Infrastructure`,
+			img: `https://media.licdn.com/dms/image/C560BAQFKpTISnarKRA/company-logo_200_200/0/1519864899855?e=2147483647&v=beta&t=73nV0OO9x-rd7X450CyEddogoTU1zLnxXie2cGGNaYE`,
+		},
+		{
+			title: `African Development Bank`,
+			category: `Financial Services`,
+			img: `https://pbs.twimg.com/profile_images/1315989039342923778/5cJ-fhvP_400x400.jpg`,
+		},
+		{
+			title: `Africa Export-Import Bank (AFREXIM)`,
+			category: `Financial Services`,
+			img: `https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Afreximbank_Logo_RGB.jpg/800px-Afreximbank_Logo_RGB.jpg`,
+		},
+		{
+			title: `Development Bank of Nigeria PLC (DBN)`,
+			category: `Financial Services`,
+			img: `https://www.devbankng.com/img/screenshot2.PNG`,
+		},
 	],
 }
