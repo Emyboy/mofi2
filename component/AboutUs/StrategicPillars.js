@@ -3,7 +3,7 @@ import React from 'react'
 export default function StrategicPillars() {
 	return (
 		<section className="news-section">
-			<div className="container">
+			<div className="container py-0">
 				<h3 className="text-theme mb-5">Our Strategic Pillars</h3>
 				<br />
 				<div className="row">
