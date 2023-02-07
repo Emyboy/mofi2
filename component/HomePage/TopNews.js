@@ -14,18 +14,21 @@ export default function TopNews() {
 				</p>
 				<div className="row">
 					<EachNews
-						text={`Nigeria Names Ex-Finance Minister to Revitalize Investment Firm`}
-						img={`https://www.vanguardngr.com/wp-content/uploads/2019/09/CBN-e1490307285906.jpg`}
+						text={`MOFI: Nigeria’s strategic vision for sustainable economic recovery`}
+						img={`https://f5p3e9e4.stackpathcdn.com/wp-content/uploads/2023/01/Ministry-Of-Finance-MOFI.jpg`}
+						link={`https://www.thecable.ng/mofi-nigerias-strategic-vision-for-sustainable-economic-recovery/amp`}
 					/>
 
 					<EachNews
 						text={`Nigeria Names Ex-Finance Minister to Revitalize Investment Firm`}
-						img={`https://www.vanguardngr.com/wp-content/uploads/2019/09/CBN-e1490307285906.jpg`}
+						img={`https://media.premiumtimesng.com/wp-content/files/2012/09/Shamsudeen-Usman.jpg`}
+						link={`https://www.bloomberg.com/news/articles/2023-01-21/nigeria-names-ex-finance-minister-to-revitalize-investment-firm`}
 					/>
 
 					<EachNews
-						text={`Nigeria Names Ex-Finance Minister to Revitalize Investment Firm`}
-						img={`https://www.vanguardngr.com/wp-content/uploads/2019/09/CBN-e1490307285906.jpg`}
+						text={`What is Ministry of Finance Incorporated?`}
+						img={`https://pbs.twimg.com/media/Fn4avepWIAo6Xeh?format=jpg&name=900x900`}
+						link={`https://twitter.com/finminnigeria/status/1620762338818404363?s=46&t=_nbibBBHudCXntMfroTBag`}
 					/>
 				</div>
 			</div>
@@ -39,9 +42,9 @@ const EachNews = ({ text, link, img }) => {
 			<div className="card bg-theme">
 				<div className="card-body p-4 text-white">
 					<p className="text-white">{text}</p>
-					<Link href={link || '/'} className="text-white">
+					<a href={link || '/'} target='_blank' className="text-white">
 						Read More <ArrowRight color="white" />
-					</Link>
+					</a>
 				</div>
 				<div
 					className="bg-img"
