@@ -1,71 +1,34 @@
 import Layout from '@/component/Layout/Layout'
+import Data from '@/Data'
 import React from 'react'
 
 export default function governance() {
 	return (
 		<Layout>
-			<div className='mb-5'>
-				<SectionHeader
-					heading={`Governance council`}
-					subHeading={`
-						The Governing Council led by the President; H.E.
-						Muhammadu Buhari is accountable for monitoring
-						regulatory compliance and ensuring best practices across
-						board in the organization.
-					`}
-				/>
-				<div className="container">
-					<div className="row">
-						<EachGov />
-						<EachGov />
-						<EachGov />
-						<EachGov />
-					</div>
-				</div>
-			</div>
-			<div className='mb-5'>
-				<SectionHeader
-					heading={`Governance council`}
-					subHeading={`
-						The Governing Council led by the President; H.E.
-						Muhammadu Buhari is accountable for monitoring
-						regulatory compliance and ensuring best practices across
-						board in the organization.
-					`}
-				/>
-				<div className="container">
-					<div className="row">
-						<EachGov />
-						<EachGov />
-						<EachGov />
-						<EachGov />
-					</div>
-				</div>
-			</div>
-			<div className='mb-5'>
-				<SectionHeader
-					heading={`Governance council`}
-					subHeading={`
-						The Governing Council led by the President; H.E.
-						Muhammadu Buhari is accountable for monitoring
-						regulatory compliance and ensuring best practices across
-						board in the organization.
-					`}
-				/>
-				<div className="container">
-					<div className="row">
-						<EachGov />
-						<EachGov />
-						<EachGov />
-						<EachGov />
-					</div>
-				</div>
+			<div className="mb-5">
+				{Data.governance.map((val, index) => {
+					return (
+						<>
+							<SectionHeader
+								heading={val.sectionTitle}
+								subHeading={val.sectionDescription}
+							/>
+							<div className="container">
+								<div className="row">
+									{val.people?.map((person, i) => {
+										return <EachGov person={person} />
+									})}
+								</div>
+							</div>
+						</>
+					)
+				})}
 			</div>
 		</Layout>
 	)
 }
 
-const EachGov = () => {
+const EachGov = ({ person }) => {
 	return (
 		<div className="col-md-4 mb-4">
 			<div
@@ -73,7 +36,7 @@ const EachGov = () => {
 				style={{
 					minWidth: '300px',
 					height: '430px',
-					backgroundImage: `url(https://www.blueprint.ng/wp-content/uploads/2020/09/NNPC-LOGO.jpe)`,
+					backgroundImage: `url(${person?.img})`,
 				}}
 			>
 				<div
@@ -90,10 +53,13 @@ const EachGov = () => {
 					className="card-body d-flex flex-column justify-content-end"
 					style={{ zIndex: 10 }}
 				>
-					<p className="text-white fw-bold">
-						Infrastructure & Services
-					</p>
-					<p className="text-white fw-light">Explore </p>
+					<p className="text-white fw-bold m-0">{person.title}</p>
+					{person.subTitle && (
+						<p className="text-white fw-light">
+							{person.subTitle}{' '}
+						</p>
+					)}
+					<p className="fw-bold text-white m-0">{person.position} </p>
 				</div>
 			</div>
 		</div>

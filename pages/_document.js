@@ -4,7 +4,11 @@ export default function Document() {
 	return (
 		<Html lang="en">
 			<Head>
-				<title>MOFI | INVESTING IN TOMORROW, TODAY</title>
+				<title>Mofi | Ministry of Finance Incorporated</title>
+				<meta
+					name="description"
+					content="Investing in Nigeria's future today"
+				></meta>
 				<script
 					src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 					integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
