@@ -189,12 +189,12 @@ export default function Header({}) {
 					</div>
 				</nav>
 				<form className="form-inline my-2 my-lg-0">
-					<button
+					<Link
 						className="bg-theme text-white btn my-2 my-sm-0"
-						type="submit"
+						href={`/contact`}
 					>
 						Contact Us
-					</button>
+					</Link>
 				</form>
 			</div>
 		</header>

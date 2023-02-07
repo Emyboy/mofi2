@@ -1,9 +1,10 @@
+import Layout from '@/component/Layout/Layout'
 import Link from 'next/link'
 import React from 'react'
 
 export default function contact() {
   return (
-		<div>
+		<Layout>
 			<section
 				className="page-title"
 				style={{
@@ -50,6 +51,6 @@ export default function contact() {
 					</div>
 				</div>
 			</section>
-		</div>
+		</Layout>
   )
 }

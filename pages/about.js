@@ -27,8 +27,8 @@ export default function about() {
 					/>
 				</div>
 			</div>
-			<MissionAndVision />
 			<StrategicPillars />
+			<MissionAndVision />
 			<TheScope />
 		</Layout>
 	)

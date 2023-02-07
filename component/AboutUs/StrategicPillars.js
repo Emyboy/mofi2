@@ -4,7 +4,7 @@ export default function StrategicPillars() {
 	return (
 		<section className="news-section">
 			<div className="container">
-				<h3 className="text-theme mb-5">Our Strategic Plans</h3>
+				<h3 className="text-theme mb-5">Our Strategic Pillars</h3>
 				<br />
 				<div className="row">
 					<EachCard
