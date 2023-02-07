@@ -35,7 +35,7 @@ export default function TopNews() {
 
 const EachNews = ({ text, link, img }) => {
 	return (
-		<div className="col-sm-12 col-md-4">
+		<div className="col-sm-12 col-md-4 mb-3">
 			<div className="card bg-theme">
 				<div className="card-body p-4 text-white">
 					<p className="text-white">{text}</p>

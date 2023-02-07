@@ -24,10 +24,6 @@ const navs = [
 		route: '/about',
 	},
 	{
-		name: 'About',
-		route: '/about',
-	},
-	{
 		name: 'Governance',
 		route: '/governance',
 	},

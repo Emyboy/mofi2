@@ -11,9 +11,13 @@ export default function Portfolio() {
 				<div className="row justify-content-between">
 					<div className="col-md-5 col-sm-12">
 						<h3 className="text-white mb-4">
-							A snapshot of<br /> our portfolio
+							A snapshot of
+							<br /> our portfolio
 						</h3>
-						<p className="text-white" style={{ lineHeight: '50px'}}>
+						<p
+							className="text-white"
+							style={{ lineHeight: '50px' }}
+						>
 							The Ministry of Finance Incorporated (MOFI) was
 							established in 1959 as a platform to take charge of
 							all investments made by the Federal Government of
@@ -40,7 +44,7 @@ export default function Portfolio() {
 								</div>
 							</div>
 							<div className="col-sm-12 col-lg-6">
-								<div className="card bg-theme">
+								<div className="card bg-theme h-100">
 									<div className="card-body p-5">
 										<div className="d-flex">
 											<Bin />
@@ -57,16 +61,16 @@ export default function Portfolio() {
 							</div>
 						</div>
 						<div className="card bg-theme mt-4">
-							<div className="card-body p-5">
-								<div className="d-flex">
+							<div className="card-body p-5 text-center">
+								<div className="d-flex justify-content-center">
 									<Bin />
 									<h3 className="mx-3 font-weight-normal text-white">
-										18 bn
+										52 Entities
 									</h3>
 								</div>
 								<p className=" text-white fw-light">
-									Total value of top 10 MOFI portfolio
-									companies
+									Total entities with confirmed MOFI
+									shareholding
 								</p>
 							</div>
 						</div>
