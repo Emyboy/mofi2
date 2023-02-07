@@ -21,8 +21,12 @@
 .text-theme-dark {
     color: var(--theme-color-dark) !important;
 }
+
 .bg-theme-light {
     background-color: var(--theme-color-light) !important;
+}
+.bg-theme-dark {
+    background-color: var(--theme-color-dark) !important;
 }
 .bg-gray{
     background-color: var(--gray-color) !important;

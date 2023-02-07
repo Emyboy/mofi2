@@ -1,3 +1,4 @@
+import ContactForm from '@/component/ContactUs/ContactForm'
 import Layout from '@/component/Layout/Layout'
 import Link from 'next/link'
 import React from 'react'
@@ -21,20 +22,13 @@ export default function contact() {
 								lineHeight: '79px',
 							}}
 						>
-							Investing in{' '}
-							<span className="text-theme">
-								Tomorrow,
-								<br /> Today
-							</span>{' '}
-							& The Future.
+							Looking to Send us a<br /> Message at MOFI??
 						</h1>
 						<div className="page-breadcrumb py-3">
 							<p className="text-white">
-								Investing in tomorrow, today is a smart choice
-								for a brighter future. With careful planning
-								<br /> and a long-term perspective, you can
-								secure your financial future and achieve your
-								goals.
+								Our user-friendly interface and intuitive
+								features make managing your<br /> finances a breeze,
+								so you can focus on the things that matter most.
 							</p>
 						</div>
 						<div className="page-breadcrumb">
@@ -42,15 +36,16 @@ export default function contact() {
 								href={'/'}
 								className="btn bg-theme text-white py-3 px-3 rounded"
 							>
-								Contact Support
+								Message Us
 							</Link>
 							<Link href={'/'} className="mx-4 text-white">
-								Learn More
+								Send Us Email
 							</Link>
 						</div>
 					</div>
 				</div>
 			</section>
+			<ContactForm />
 		</Layout>
   )
 }
