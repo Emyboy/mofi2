@@ -53,11 +53,11 @@ export default function Header({}) {
 		if (showNav) {
 			document
 				.querySelector('body')
-				.classList.remove('mobile-menu-visible')
+				.classList.add('mobile-menu-visible')
 		} else {
 			document
 				.querySelector('body')
-				.classList.add('mobile-menu-visible')
+				.classList.remove('mobile-menu-visible')
 		}
 	}, [showNav])
 
@@ -68,7 +68,7 @@ export default function Header({}) {
 	if (width < Constants.tablet_width && show) {
 		return (
 			<>
-				{!showNav && <MobileMenu onClose={toggleSideNav} />}
+				{showNav && <MobileMenu onClose={toggleSideNav} />}
 				<header
 					className="navbar bg-white px-2 py-4 d-flex justify-content-between"
 					onClick={toggleSideNav}
@@ -101,8 +101,7 @@ export default function Header({}) {
 			>
 				<span className="navbar-toggler-icon"></span>
 			</button> */}
-			<div className="p-2 bg-danger"></div>
-			<MobileMenu />
+			{/* <div className="p-2 bg-danger"></div> */}
 			<div
 				className="collapse navbar-collapse justify-content-between"
 				id="navbarTogglerDemo01"
