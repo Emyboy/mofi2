@@ -237,5 +237,50 @@ export default {
 			category: `Services`,
 			img: `https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/ergkextegbfvar4kdtpu`,
 		},
+		{
+			title: `Transcorp Hotels Plc`,
+			category: `Services`,
+			img: `https://www.transcorphotels.com/wp-content/uploads/2019/02/Copy-of-Untitled-2.png`,
+		},
+		{
+			title: `Galaxy Backbone Limited (GBB)`,
+			category: `Services`,
+			img: `https://media.licdn.com/dms/image/C560BAQGIciUa3R5cRg/company-logo_200_200/0/1519878433678?e=2147483647&v=beta&t=2fXshAmCEdTOy0ZT6xqPd0Zt6wYEqw09-tOm6mX71V4`,
+		},
+		{
+			title: `NIPOST`,
+			category: `Services`,
+			img: `https://live.mrf.io/statics/i/ps/i0.wp.com/www.thisdaylive.com/wp-content/uploads/NIPOST.jpg?w=866&ssl=1&width=1200&enable=upscale`,
+		},
+		{
+			title: `Nigeria Security Printing & Minting Company`,
+			category: `Industrials`,
+			img: `https://dailytrust.com/wp-content/uploads/2021/06/Nigeria-Security-Printing-and-Minting-Company-NSPM.jpg`,
+		},
+		{
+			title: `The DICON`,
+			category: `Industrials`,
+			img: `https://worldstagenews.com/wp-content/uploads/2020/06/DICON.png`,
+		},
+		{
+			title: `Neespree Ltd.`,
+			category: `Industrials`,
+			img: ``,
+		},
+		{
+			title: `Pacesetters Farm`,
+			category: `Industrials`,
+			img: ``,
+		},
+		{
+			title: `Nigerian National Petroleum Corporation Ltd.`,
+			category: `Energy & Extractives`,
+			img: `https://ibekachikwu.com/wp-content/uploads/2020/09/5e0ab5ae-29a9-4ac6-9bc8-fe4f1e78a204.jpg`,
+		},
+		{
+			title: `(Indorama) Eleme Petrochemical Company`,
+			category: `Energy & Extractives`,
+			img: `https://media.knowde.com/image/upload/f_auto,q_auto/v1614721888/production/Company/21345/logo/image`,
+		},
 	],
 }
