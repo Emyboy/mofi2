@@ -55,7 +55,7 @@ const EachGov = ({ person }) => {
 				>
 					<p className="text-white fw-bold m-0">{person.title}</p>
 					{person.subTitle && (
-						<p className="text-white fw-light">
+						<p className="text-white fw-light mb-1">
 							{person.subTitle}{' '}
 						</p>
 					)}
