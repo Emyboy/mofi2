@@ -1,3 +1,4 @@
+import Data from '@/Data'
 import React from 'react'
 
 export default function PhilosophyPortfolioCompanies() {
@@ -14,14 +15,18 @@ export default function PhilosophyPortfolioCompanies() {
 				<br />
 				<br />
 				<div className="row">
-					<EachCompany />
-					<EachCompany />
-					<EachCompany />
-					<EachCompany />
-					<EachCompany />
-					<EachCompany />
-					<EachCompany />
-					<EachCompany />
+					{
+						Data.companies.map((val, i) => {
+							return (
+								<EachCompany
+									heading={val.title}
+									subHeading={val.category}
+									img={val.img}
+								/>
+							)
+						})
+					}
+					
 				</div>
 			</div>
 		</section>
@@ -41,7 +46,7 @@ const EachNav = ({ text, active, onClick }) => {
 	)
 }
 
-const EachCompany = () => {
+const EachCompany = ({ heading, subHeading, img }) => {
 	return (
 		<div className="col-md-4 mb-4">
 			<div
@@ -49,7 +54,7 @@ const EachCompany = () => {
 				style={{
 					minWidth: '300px',
 					height: '430px',
-					backgroundImage: `url(https://www.blueprint.ng/wp-content/uploads/2020/09/NNPC-LOGO.jpe)`,
+					backgroundImage: `url(${img})`,
 				}}
 			>
 				<div
@@ -66,10 +71,8 @@ const EachCompany = () => {
 					className="card-body d-flex flex-column justify-content-end"
 					style={{ zIndex: 10 }}
 				>
-					<p className="text-white fw-bold">
-						Infrastructure & Services
-					</p>
-					<p className="text-white fw-light">Explore </p>
+					<p className="text-white fw-bold mb-2">{heading}</p>
+					<p className="text-white fw-light">{subHeading} </p>
 				</div>
 			</div>
 		</div>

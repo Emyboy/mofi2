@@ -171,4 +171,26 @@ export default {
 			],
 		},
 	],
+	companies: [
+		{
+			title: `Abuja Electricity Distribution Company Plc (AEDC) `,
+			category: `Infrastructure`,
+			img: `https://nairadata.com.ng/wp-content/uploads/2020/07/Abuja-Electric.jpg`,
+		},
+		{
+			title: `Benin Electricity Distribution Company Plc (BEDC)`,
+			category: `Infrastructure`,
+			img: `https://i0.wp.com/www.thisdaylive.com/wp-content/uploads/BEDC.jpg?w=800&ssl=1`,
+		},
+		{
+			title: `EKO Electricity Distribution Company Plc (EKEDC)`,
+			category: `Infrastructure`,
+			img: `https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/kkx7gybv0zzeheipshnj`,
+		},
+		{
+			title: `Enugu Electricity Distribution Company Plc (EEDC)`,
+			category: `Infrastructure`,
+			img: `https://one.jumia.com.ng/static-assets/operators/eko.jpg`,
+		},
+	],
 }

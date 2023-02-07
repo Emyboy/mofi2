@@ -16,14 +16,17 @@ export default function about() {
 					<EachAboutCard
 						heading={`Cash-flow-generating transactions`}
 						body={`Cash-flow-generating transactions, such as concession agreements and public private partnerships`}
+						img={`https://cdn.punchng.com/wp-content/uploads/2023/01/24103941/POS-operator.jpg`}
 					/>
 					<EachAboutCard
 						heading={`Corporate, Fixed & Financial assets`}
 						body={`Corporate assets owned wholly or partly by the federal government. i.e. shares of publicly traded entities etc`}
+						img={`https://cloudinary.hbs.edu/hbsit/image/upload/s--KVUY10MC--/f_auto,c_fill,h_375,w_750,/v20200101/25180C59E7106063072ED42149A6C880.jpg`}
 					/>
 					<EachAboutCard
 						heading={`Mineral and intangible assets`}
 						body={`Mineral and intangible assets (hydrocarbons)`}
+						img={`https://www.genequityco.com/images/general/11-57bc678b26fe8.jpg`}
 					/>
 				</div>
 			</div>
@@ -34,7 +37,7 @@ export default function about() {
 	)
 }
 
-const EachAboutCard = ({ heading, body }) => {
+const EachAboutCard = ({ heading, body, img }) => {
     return (
 		<div className="col-sm-12 col-md-4">
 			<div className="card bg-theme h-100">
@@ -44,7 +47,7 @@ const EachAboutCard = ({ heading, body }) => {
 				</div>
 				<div
 					className="bg-img"
-					style={{ backgroundImage: `url(/img/about-card-bg.png)`, height: '200px' }}
+					style={{ backgroundImage: `url(${img})`, height: '200px' }}
 				/>
 			</div>
 		</div>
