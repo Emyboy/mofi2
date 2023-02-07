@@ -76,7 +76,7 @@ export default function Header({}) {
 					<Link className="navbar-brand" href="/">
 						<Img src="/img/logo.png" width={100} height={100} />
 					</Link>
-					<button>
+					<button className='btn p-0'>
 						<HiMenuAlt3 size={30} />
 					</button>
 				</header>
