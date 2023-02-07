@@ -192,5 +192,15 @@ export default {
 			category: `Infrastructure`,
 			img: `https://one.jumia.com.ng/static-assets/operators/eko.jpg`,
 		},
+		{
+			title: `FGN Road Sukuk Company 1 Plc`,
+			category: `Infrastructure`,
+			img: ``,
+		},
+		{
+			title: `Geregu Power Plc`,
+			category: `Infrastructure`,
+			img: `https://images.africanfinancials.com/1458e1a1-ng-geregu-logo.png`,
+		},
 	],
 }

@@ -50,13 +50,16 @@ const EachCompany = ({ heading, subHeading, img }) => {
 	return (
 		<div className="col-md-4 mb-4">
 			<div
-				className="card bg-dark mx-3 bg-img image-1 overlay-anim wow fadeInUp animated"
+				className="card mx-3 bg-img image-1 overlay-anim wow fadeInUp animated"
 				style={{
 					minWidth: '300px',
-					height: '430px',
-					backgroundImage: `url(${img})`,
+					height: '330px',
+					// backgroundImage: `url(${img})`,
 				}}
 			>
+				<div className="text-center ">
+					<img src={img} width={190} />
+				</div>
 				<div
 					className="overlay p-4"
 					style={{
@@ -68,7 +71,7 @@ const EachCompany = ({ heading, subHeading, img }) => {
 					}}
 				/>
 				<div
-					className="card-body d-flex flex-column justify-content-end"
+					className="card-body d-flex flex-column justify-content-end pt-0"
 					style={{ zIndex: 10 }}
 				>
 					<p className="text-white fw-bold mb-2">{heading}</p>
