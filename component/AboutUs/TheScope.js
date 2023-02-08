@@ -5,8 +5,9 @@ import { useWindowSize } from 'react-use'
 export default function TheScope() {
 	return (
 		<section className="news-section bg-gray">
-			<h3 className="text-center mb-5 text-theme">The Scope of Mofi's Activities</h3>
 			<div className="container">
+			<h3 className="text-theme mb-5">The Scope of Mofi's Activities</h3>
+			<br />
 				<EachScope
 					img={`/img/growth.png`}
 					heading={`High-growth priority sectors`}
