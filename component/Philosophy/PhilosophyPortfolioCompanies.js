@@ -51,13 +51,49 @@ const EachCompany = ({ heading, subHeading, img, description }) => {
 
 	return (
 		<div className="col-md-4 mb-4">
-			<Modal show={show} onHide={() => setShow(false)}>
+			<Modal show={show} onHide={() => setShow(false)} size="lg">
 				<Modal.Header closeButton>
 					<Modal.Title>Learn More</Modal.Title>
 				</Modal.Header>
 				<Modal.Body>
-					<img src={img} width={140} className='mb-3' />
-					<p>{description}</p>
+					<img src={img} width={140} className="mb-3" />
+					{
+						<div className="col-sm-12 col-md-7">
+							<p>{description}</p>
+						</div>
+					}
+					<br />
+					<div class="col-md-5">
+						<h6 className='mb-0'>Operation & Governance</h6>
+						<table className="table table-bordered cart-total">
+							<tbody>
+								<tr>
+									<td>Cart Subtotal</td>
+									<td>$180.00</td>
+									<td>Cart Subtotal</td>
+									<td>$180.00</td>
+								</tr>
+								<tr>
+									<td>Shipping and Handling</td>
+									<td>$70.00</td>
+									<td>Shipping and Handling</td>
+									<td>$70.00</td>
+								</tr>
+								<tr>
+									<td>Order Total</td>
+									<td>$250.00</td>
+									<td>Order Total</td>
+									<td>$250.00</td>
+								</tr>
+							</tbody>
+						</table>
+						<a
+							class="theme-btn btn-style-one"
+							href="shop-checkout.html"
+						>
+							<span class="btn-title">Proceed to Checkout</span>{' '}
+						</a>{' '}
+					</div>
 				</Modal.Body>
 			</Modal>
 			<div

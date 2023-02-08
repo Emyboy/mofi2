@@ -5,6 +5,8 @@ export default function MissionAndVision() {
 	return (
 		<section>
 			<div className="container">
+				<h3 className='text-theme mb-5'>Our Corporate Philosophy</h3>
+				<br />
 				<div className="row">
 					<div className="col-md-6 col-sm-12">
 						<div className="card bg-theme mb-3 h-100">

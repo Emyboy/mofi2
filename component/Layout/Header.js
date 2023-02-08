@@ -20,7 +20,7 @@ const navs = [
 		route: '/',
 	},
 	{
-		name: 'About',
+		name: 'About Us',
 		route: '/about',
 	},
 	{

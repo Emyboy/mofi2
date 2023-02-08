@@ -16,6 +16,8 @@ export default function about() {
 			<TheScope />
 			<section>
 				<div className="container my-">
+					<h3 className='mb-4 text-theme'>Our Asset Classes</h3>
+					<br />
 					<div className="row">
 						<EachAboutCard
 							heading={`Corporate assets`}
