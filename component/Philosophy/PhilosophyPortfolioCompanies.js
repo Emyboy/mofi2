@@ -1,5 +1,6 @@
 import Data from '@/Data'
-import React from 'react'
+import React, { useState } from 'react'
+import { Modal } from 'react-bootstrap'
 
 export default function PhilosophyPortfolioCompanies() {
 	return (
@@ -21,6 +22,7 @@ export default function PhilosophyPortfolioCompanies() {
 								heading={val.title}
 								subHeading={val.category}
 								img={val.img}
+								description={val.description}
 							/>
 						)
 					})}
@@ -43,14 +45,27 @@ const EachNav = ({ text, active, onClick }) => {
 	)
 }
 
-const EachCompany = ({ heading, subHeading, img }) => {
+const EachCompany = ({ heading, subHeading, img, description }) => {
+	const [show, setShow] = useState(false)
+
 	return (
 		<div className="col-md-4 mb-4">
+			<Modal show={show} onHide={() => setShow(false)}>
+				<Modal.Header closeButton>
+					<Modal.Title>Learn More</Modal.Title>
+				</Modal.Header>
+				<Modal.Body>
+					<img src={img} width={140} className='mb-3' />
+					<p>{description}</p>
+				</Modal.Body>
+			</Modal>
 			<div
+				onClick={() => setShow(true)}
 				className="card mx-3 bg-img image-1 overlay-anim wow fadeInUp animated"
 				style={{
 					minWidth: '300px',
 					height: '330px',
+					cursor: 'pointer',
 					// backgroundImage: `url(${img})`,
 				}}
 			>
