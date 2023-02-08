@@ -23,7 +23,7 @@ export default function PortfolioCompanies() {
 					/>
 					<EachCompany
 						title={`Industrial`}
-						img={`https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmluYW5jZXxlbnwwfHwwfHw%3D&w=1000&q=80`}
+						img={`https://media.istockphoto.com/id/1195289766/photo/sugar-factory-industry-line-production-cane-process.jpg?s=612x612&w=0&k=20&c=MjyxLZ4TZ3vRvM6jRaUolMeVXg-rtLhEZkX3VbzpN8w=`}
 					/>
 					<EachCompany
 						title={`Services`}
