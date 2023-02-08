@@ -18,18 +18,28 @@ export default function about() {
 				<div className="container my-">
 					<div className="row">
 						<EachAboutCard
-							heading={`Cash-flow-generating transactions`}
+							heading={`Corporate assets`}
 							body={`Cash-flow-generating transactions, such as concession agreements and public private partnerships`}
 							img={`https://cdn.punchng.com/wp-content/uploads/2023/01/24103941/POS-operator.jpg`}
 						/>
 						<EachAboutCard
-							heading={`Corporate, Fixed & Financial assets`}
+							heading={`Financial assets`}
 							body={`Corporate assets owned wholly or partly by the federal government. i.e. shares of publicly traded entities etc`}
 							img={`https://cloudinary.hbs.edu/hbsit/image/upload/s--KVUY10MC--/f_auto,c_fill,h_375,w_750,/v20200101/25180C59E7106063072ED42149A6C880.jpg`}
 						/>
 						<EachAboutCard
+							heading={`Fixed assets`}
+							body={`Fixed assets (including real estate)`}
+							img={`https://www.genequityco.com/images/general/11-57bc678b26fe8.jpg`}
+						/>
+						<EachAboutCard
 							heading={`Mineral and intangible assets`}
 							body={`Mineral and intangible assets (hydrocarbons)`}
+							img={`https://www.genequityco.com/images/general/11-57bc678b26fe8.jpg`}
+						/>
+						<EachAboutCard
+							heading={`Cash-flow-generating transactions`}
+							body={`Cash-flow-generating transactions, such as concession agreements and public private partnerships`}
 							img={`https://www.genequityco.com/images/general/11-57bc678b26fe8.jpg`}
 						/>
 					</div>
@@ -41,7 +51,7 @@ export default function about() {
 
 const EachAboutCard = ({ heading, body, img }) => {
     return (
-		<div className="col-sm-12 col-md-4">
+		<div className="col-sm-12 col-md-4 mb-3">
 			<div className="card bg-theme h-100">
 				<div className="card-body p-5">
 					<h6 className="fw-bold text-white">{heading}</h6>

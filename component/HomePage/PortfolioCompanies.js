@@ -52,7 +52,7 @@ const EachCompany = ({ title, img }) => {
 				style={{ zIndex: 10 }}
 			>
 				<p className="text-white fw-bold">{title}</p>
-				<Link href={`/investment#companies`}>
+				<Link href={`/investment#portfolio-companies`}>
 					<p className="text-white fw-light">
 						Explore <ArrowRight color={'white'} />
 					</p>

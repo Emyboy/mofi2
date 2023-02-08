@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function PhilosophyPortfolioCompanies() {
 	return (
-		<section id='companies'>
+		<section id="portfolio-companies">
 			<div className="container pt-0">
 				<h3 className="font-weight-normal">Our Portfolio Companies</h3>
 				<div className="d-flex mb-5">
@@ -15,18 +15,15 @@ export default function PhilosophyPortfolioCompanies() {
 				<br />
 				<br />
 				<div className="row">
-					{
-						Data.companies.map((val, i) => {
-							return (
-								<EachCompany
-									heading={val.title}
-									subHeading={val.category}
-									img={val.img}
-								/>
-							)
-						})
-					}
-					
+					{Data.companies.map((val, i) => {
+						return (
+							<EachCompany
+								heading={val.title}
+								subHeading={val.category}
+								img={val.img}
+							/>
+						)
+					})}
 				</div>
 			</div>
 		</section>
