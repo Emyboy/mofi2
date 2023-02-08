@@ -9,8 +9,7 @@ export default {
 				{
 					img: '/img/people/Buhari-01.jpg',
 					title: 'H.E President Muhammadu Buhari',
-					subTitle:
-						'(President of the Federal Republic of Nigeria)',
+					subTitle: '(President of the Federal Republic of Nigeria)',
 					position: 'Chair',
 				},
 				{
@@ -77,7 +76,7 @@ export default {
 					position: 'CEO (Chief Executive Officer)',
 				},
 				{
-					img: null,
+					img: `/img/people2/Eric-01.jpg`,
 					title: 'Mr Eric Olo',
 					subTitle: null,
 					position: 'CPO (Chief Portfolio Officer)',
@@ -89,7 +88,7 @@ export default {
 					position: 'CRO (Chief Risk Officer)',
 				},
 				{
-					img: `/img/people2/Olawale.jpg`,
+					img: `/img/people2/Edun.jpg`,
 					title: 'Mr Olawale Edun',
 					subTitle: null,
 					position: 'Board member',
