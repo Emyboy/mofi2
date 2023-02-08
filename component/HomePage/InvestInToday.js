@@ -40,7 +40,7 @@ export default function InvestInToday() {
 									flourish.
 								</h3> */}
 								<h3 className="font-weight-normal">
-									We are a oppose driven institution
+									We are a purpose driven institution
 								</h3>
 								<p className="text-muted">
 									Guided by the principle of building a more
