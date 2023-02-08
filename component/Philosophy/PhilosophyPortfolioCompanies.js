@@ -1,6 +1,7 @@
 import Data from '@/Data'
 import React, { useState } from 'react'
 import { Modal } from 'react-bootstrap'
+import Metrics from './Metrics'
 
 export default function PhilosophyPortfolioCompanies() {
 	return (
@@ -24,6 +25,7 @@ export default function PhilosophyPortfolioCompanies() {
 								subHeading={val.category}
 								img={val.img}
 								description={val.description}
+								company={val}
 							/>
 						)
 					})}
@@ -46,7 +48,7 @@ const EachNav = ({ text, active, onClick }) => {
 	)
 }
 
-const EachCompany = ({ heading, subHeading, img, description }) => {
+const EachCompany = ({ heading, subHeading, img, description, company }) => {
 	const [show, setShow] = useState(false)
 
 	return (
@@ -63,43 +65,7 @@ const EachCompany = ({ heading, subHeading, img, description }) => {
 						</div>
 					}
 					<br />
-					{/* <div className="row">
-						<div class="col-md-5 col-sm-12">
-							<div className="card bg-theme-light w-100">
-								<h6 className="mb-0">Operation & Governance</h6>
-							</div>
-							<table className="table table-bordered cart-total">
-								<tbody>
-									<tr>
-										<td>CAC Compliance</td>
-										<td> </td>
-										<td>MOFI Board Rep</td>
-										<td> </td>
-									</tr>
-									<tr>
-										<td>MOFI Shareholding</td>
-										<td> </td>
-										<td>Operation cluster</td>
-										<td> </td>
-									</tr>
-									<tr>
-										<td>Total Board Members</td>
-										<td> </td>
-										<td>Adequate Operating Structure</td>
-										<td> </td>
-									</tr>
-								</tbody>
-							</table>
-							<a
-								class="theme-btn btn-style-one"
-								href="shop-checkout.html"
-							>
-								<span class="btn-title">
-									Proceed to Checkout
-								</span>{' '}
-							</a>{' '}
-						</div>
-					</div> */}
+					<Metrics company={company} />
 				</Modal.Body>
 			</Modal>
 			<div

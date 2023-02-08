@@ -182,6 +182,17 @@ export default {
 			category: `Infrastructure`,
 			img: `https://nairadata.com.ng/wp-content/uploads/2020/07/Abuja-Electric.jpg`,
 			description: `AEDC Is one of the successor distributions companies (Discos) created following the unbundling and privatization of the state-owned Power Utility, Power Holding Company of Nigeria Plc. AEDC is responsible for retail distribution of electricity in Abuja, Niger, Kogi and Nasarawa states. On the 10th of August 2021, AEDC recorded the highest number of metered customers.`,
+			cac_compliance: true,
+			board_rep: false,
+			shareholding: '80%',
+			cluster: '3 States & FCT',
+			board_members: 7,
+			operating_structure: true,
+			executive_directors: 3,
+			staff_strength: `3,474`,
+
+			mofi_equity: `NGN 59.34b`,
+			asset_stake: `NGN (8.05)b`,
 		},
 		{
 			title: `Benin Electricity Distribution Company Plc (BEDC)`,
