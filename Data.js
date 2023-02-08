@@ -71,7 +71,7 @@ export default {
 					position: 'Chair',
 				},
 				{
-					img: null,
+					img: `/img/people2/ttk.jpg`,
 					title: 'Dr Armstrong Takang (PhD)',
 					subTitle: null,
 					position: 'CEO (Chief Executive Officer)',
@@ -157,7 +157,7 @@ export default {
 					position: null,
 				},
 				{
-					img: null,
+					img: `/img/people2/Peller-01.jpg`,
 					title: 'Mrs Sefiat Abiola-Peller',
 					subTitle: `Head Finance/IT`,
 					position: null,
