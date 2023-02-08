@@ -6,7 +6,9 @@ export default function TheScope() {
 	return (
 		<section className="news-section bg-gray">
 			<div className="container">
-			<h3 className="text-theme mb-5">The Scope of Mofi's Activities</h3>
+			<h3 className="text-theme mb-5 text-center">The Scope of Mofi's Activities</h3>
+			<br />
+			<br />
 			<br />
 				<EachScope
 					img={`/img/growth.png`}
