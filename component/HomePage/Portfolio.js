@@ -62,7 +62,7 @@ export default function Portfolio() {
 								<div className="d-flex justify-content-center">
 									{/* <Bin /> */}
 									<h3 className=" font-weight-normal text-white">
-										₦ 52 Entities
+										 52 Entities
 									</h3>
 								</div>
 								<p className=" text-white fw-light">
