@@ -35,12 +35,12 @@ export default function about() {
 						<EachAboutCard
 							heading={`Mineral and intangible assets`}
 							body={`Mineral and intangible assets (hydrocarbons)`}
-							img={`https://www.genequityco.com/images/general/11-57bc678b26fe8.jpg`}
+							img={`https://thumbs.dreamstime.com/b/wooden-blocks-word-invest-house-hands-businessman-concept-investing-real-estate-construction-161769612.jpg`}
 						/>
 						<EachAboutCard
 							heading={`Cash-flow-generating transactions`}
 							body={`Cash-flow-generating transactions, such as concession agreements and public private partnerships`}
-							img={`https://www.genequityco.com/images/general/11-57bc678b26fe8.jpg`}
+							img={`https://cfoshare.org/wp-content/uploads/2020/08/AdobeStock_108489224-scaled.jpeg`}
 						/>
 					</div>
 				</div>
