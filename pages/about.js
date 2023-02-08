@@ -11,28 +11,30 @@ export default function about() {
 			<AboutUsHero />
 			<br />
 			<br />
-			<div className="container my-5">
-				<div className="row">
-					<EachAboutCard
-						heading={`Cash-flow-generating transactions`}
-						body={`Cash-flow-generating transactions, such as concession agreements and public private partnerships`}
-						img={`https://cdn.punchng.com/wp-content/uploads/2023/01/24103941/POS-operator.jpg`}
-					/>
-					<EachAboutCard
-						heading={`Corporate, Fixed & Financial assets`}
-						body={`Corporate assets owned wholly or partly by the federal government. i.e. shares of publicly traded entities etc`}
-						img={`https://cloudinary.hbs.edu/hbsit/image/upload/s--KVUY10MC--/f_auto,c_fill,h_375,w_750,/v20200101/25180C59E7106063072ED42149A6C880.jpg`}
-					/>
-					<EachAboutCard
-						heading={`Mineral and intangible assets`}
-						body={`Mineral and intangible assets (hydrocarbons)`}
-						img={`https://www.genequityco.com/images/general/11-57bc678b26fe8.jpg`}
-					/>
-				</div>
-			</div>
 			<StrategicPillars />
 			<MissionAndVision />
 			<TheScope />
+			<section>
+				<div className="container my-">
+					<div className="row">
+						<EachAboutCard
+							heading={`Cash-flow-generating transactions`}
+							body={`Cash-flow-generating transactions, such as concession agreements and public private partnerships`}
+							img={`https://cdn.punchng.com/wp-content/uploads/2023/01/24103941/POS-operator.jpg`}
+						/>
+						<EachAboutCard
+							heading={`Corporate, Fixed & Financial assets`}
+							body={`Corporate assets owned wholly or partly by the federal government. i.e. shares of publicly traded entities etc`}
+							img={`https://cloudinary.hbs.edu/hbsit/image/upload/s--KVUY10MC--/f_auto,c_fill,h_375,w_750,/v20200101/25180C59E7106063072ED42149A6C880.jpg`}
+						/>
+						<EachAboutCard
+							heading={`Mineral and intangible assets`}
+							body={`Mineral and intangible assets (hydrocarbons)`}
+							img={`https://www.genequityco.com/images/general/11-57bc678b26fe8.jpg`}
+						/>
+					</div>
+				</div>
+			</section>
 		</Layout>
 	)
 }
