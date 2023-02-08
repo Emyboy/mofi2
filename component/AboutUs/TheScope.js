@@ -13,15 +13,15 @@ export default function TheScope() {
 					subHeading={`Up to 80% of funds for new investments may be devoted to identified sectors, including manufacturing, digital services, and agriculture.`}
 				/>
 				<EachScope
-					img={`/img/geography.png`}
-					heading={`Geography`}
-					subHeading={`We aim to grow the portfolio in Nigeria while exploring Nigeria while exploring opportunities for diversification in the global market.`}
-					flip
-				/>
-				<EachScope
 					img={`/img/assets.png`}
 					heading={`Asset classes`}
 					subHeading={`We ensure a well diversified portfolio across sectors and asset classes, from energy to manufacturing to agriculture.`}
+					flip
+				/>
+				<EachScope
+					img={`/img/geography.png`}
+					heading={`Geography`}
+					subHeading={`We aim to grow the portfolio in Nigeria while exploring Nigeria while exploring opportunities for diversification in the global market.`}
 				/>
 			</div>
 		</section>
