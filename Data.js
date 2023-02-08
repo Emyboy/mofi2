@@ -83,19 +83,19 @@ export default {
 					position: 'CPO (Chief Portfolio Officer)',
 				},
 				{
-					img: null,
+					img: `/img/people/Owonubi-01.jpg`,
 					title: 'Mrs Oluwakemi Owonubi',
 					subTitle: null,
 					position: 'CRO (Chief Risk Officer)',
 				},
 				{
-					img: null,
+					img: `/img/people2/Olawale.jpg`,
 					title: 'Mr Olawale Edun',
 					subTitle: null,
 					position: 'Board member',
 				},
 				{
-					img: null,
+					img: `/img/people2/Fatima.jpg`,
 					title: 'Hajiya Fatima Mede',
 					subTitle: null,
 					position: 'Board member',
@@ -113,7 +113,7 @@ export default {
 					position: 'Board member',
 				},
 				{
-					img: null,
+					img: `/img/people2/Alheri.jpg`,
 					title: 'Barr. Alheri Nyako',
 					subTitle: null,
 					position: 'Board member',
