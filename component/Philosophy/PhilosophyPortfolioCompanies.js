@@ -63,37 +63,43 @@ const EachCompany = ({ heading, subHeading, img, description }) => {
 						</div>
 					}
 					<br />
-					<div class="col-md-5">
-						<h6 className='mb-0'>Operation & Governance</h6>
-						<table className="table table-bordered cart-total">
-							<tbody>
-								<tr>
-									<td>Cart Subtotal</td>
-									<td>$180.00</td>
-									<td>Cart Subtotal</td>
-									<td>$180.00</td>
-								</tr>
-								<tr>
-									<td>Shipping and Handling</td>
-									<td>$70.00</td>
-									<td>Shipping and Handling</td>
-									<td>$70.00</td>
-								</tr>
-								<tr>
-									<td>Order Total</td>
-									<td>$250.00</td>
-									<td>Order Total</td>
-									<td>$250.00</td>
-								</tr>
-							</tbody>
-						</table>
-						<a
-							class="theme-btn btn-style-one"
-							href="shop-checkout.html"
-						>
-							<span class="btn-title">Proceed to Checkout</span>{' '}
-						</a>{' '}
-					</div>
+					{/* <div className="row">
+						<div class="col-md-5 col-sm-12">
+							<div className="card bg-theme-light w-100">
+								<h6 className="mb-0">Operation & Governance</h6>
+							</div>
+							<table className="table table-bordered cart-total">
+								<tbody>
+									<tr>
+										<td>CAC Compliance</td>
+										<td> </td>
+										<td>MOFI Board Rep</td>
+										<td> </td>
+									</tr>
+									<tr>
+										<td>MOFI Shareholding</td>
+										<td> </td>
+										<td>Operation cluster</td>
+										<td> </td>
+									</tr>
+									<tr>
+										<td>Total Board Members</td>
+										<td> </td>
+										<td>Adequate Operating Structure</td>
+										<td> </td>
+									</tr>
+								</tbody>
+							</table>
+							<a
+								class="theme-btn btn-style-one"
+								href="shop-checkout.html"
+							>
+								<span class="btn-title">
+									Proceed to Checkout
+								</span>{' '}
+							</a>{' '}
+						</div>
+					</div> */}
 				</Modal.Body>
 			</Modal>
 			<div

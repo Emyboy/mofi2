@@ -58,3 +58,7 @@
 .text-dark {
     color: var(--dark-color)
 }
+td{
+    padding: 8px !important;
+    min-width: 150px;
+}
