@@ -21,6 +21,14 @@ export default function PortfolioCompanies() {
 						title={`Energy & Extractives`}
 						img={`https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmluYW5jZXxlbnwwfHwwfHw%3D&w=1000&q=80`}
 					/>
+					<EachCompany
+						title={`Industrial`}
+						img={`https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmluYW5jZXxlbnwwfHwwfHw%3D&w=1000&q=80`}
+					/>
+					<EachCompany
+						title={`Services`}
+						img={`https://bookyourluxuryhotelsuite.com/wp-content/uploads/2018/12/Butlers_In_Action_Pathumwan_Princess_Hotel_Bangkok-1024x683.jpg`}
+					/>
 				</div>
 			</div>
 		</section>

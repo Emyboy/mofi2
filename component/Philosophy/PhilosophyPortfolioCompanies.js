@@ -9,9 +9,10 @@ export default function PhilosophyPortfolioCompanies() {
 				<h3 className="font-weight-normal">Our Portfolio Companies</h3>
 				<div className="d-flex mb-5">
 					<EachNav text={`Infrastructure`} active />
-					<EachNav text={`Infrastructure`} />
-					<EachNav text={`Infrastructure`} />
-					<EachNav text={`Infrastructure`} />
+					<EachNav text={`Financial Services`} />
+					<EachNav text={`Services`} />
+					<EachNav text={`Industrials`} />
+					<EachNav text={`Energy & Extractives`} />
 				</div>
 				<br />
 				<br />

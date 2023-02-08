@@ -290,6 +290,7 @@ export default {
 			title: `Neespree Ltd.`,
 			category: `Industrials`,
 			img: ``,
+			description: `Neespree Ltd is a Spinoff company registered for the purpose of commercializing post-harvest technologies developed by the Nigerian Stored Products Research Institute.`,
 		},
 		{
 			title: `Pacesetters Farm`,
