@@ -10,7 +10,7 @@ export default {
 					img: '/img/people/Buhari-01.jpg',
 					title: 'H.E President Muhammadu Buhari',
 					subTitle:
-						'(President of the Federal Republic of Nigeria/Minister of Petroleum Resources)',
+						'(President of the Federal Republic of Nigeria)',
 					position: 'Chair',
 				},
 				{
