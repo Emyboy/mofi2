@@ -44,7 +44,7 @@ export default {
 					position: 'Council Member',
 				},
 				{
-					img: `/img/people2`,
+					img: `/img/people2/Sagagi-01.jpg`,
 					title: 'Prof. Muhammad Sagagi',
 					subTitle: null,
 					position: 'Council Member',
@@ -52,6 +52,12 @@ export default {
 				{
 					img: '/img/people/Ife-01.jpg',
 					title: 'Prof. Ken Ife',
+					subTitle: null,
+					position: 'Council Member',
+				},
+				{
+					img: '/img/people2/Teriba-01.jpg',
+					title: 'Dr. Ayo Teriba',
 					subTitle: null,
 					position: 'Council Member',
 				},
@@ -162,7 +168,7 @@ export default {
 					position: null,
 				},
 				{
-					img: null,
+					img: '/img/people2/Muazu-01.jpg',
 					title: 'Mrs Zaynab Usman-Muazu',
 					subTitle: `Head Corporate Services/HR`,
 					position: null,
