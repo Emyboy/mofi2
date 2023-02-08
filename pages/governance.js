@@ -40,7 +40,7 @@ const EachGov = ({ person }) => {
 				}}
 			>
 				<div
-					className="overlay p-4"
+					className="overlay2 p-4"
 					style={{
 						position: 'absolute',
 						left: 0,
