@@ -1,4 +1,5 @@
 import React from 'react'
+import { TbCircleCheck } from 'react-icons/tb'
 
 export default function MissionAndVision() {
 	return (
@@ -9,7 +10,7 @@ export default function MissionAndVision() {
 						<div className="card bg-theme mb-3 h-100">
 							<div className="card-body p-5">
 								<h4 className="font-weight-normal mb-4 text-white">
-									<img src={`/img/dart.svg`} /> Vision
+									<TbCircleCheck size={30} /> Vision
 								</h4>
 								<p className='text-white'>
 									To become a world-class active investment
@@ -24,7 +25,7 @@ export default function MissionAndVision() {
 						<div className="card bg-theme ">
 							<div className="card-body p-5">
 								<h4 className="font-weight-normal mb-4 text-white">
-									<img src={`/img/dart.svg`} /> Mission
+									<TbCircleCheck size={30} /> Mission
 								</h4>
 								<p className='text-white'>
 									To play a leading role in driving sustained
@@ -69,7 +70,7 @@ export default function MissionAndVision() {
 						<div className="card bg-gray h-100">
 							<div className="card-body p-5">
 								<h4 className="font-weight-normal mb-4">
-									<img src={`/img/dart.svg`} /> Strategic
+									<TbCircleCheck / Strategic
 									Pillars
 								</h4>
 								<p>
