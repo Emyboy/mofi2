@@ -46,9 +46,10 @@ export default function PhilosophyHero() {
 					<EachCard
 						text={`Portfolio composition and asset mix`}
 						Icon={<img src={`/img/home.png`} />}
-					/>
+						/>
 					<EachCard
 						text={`Portfolio management & Value-creation approach`}
+						Icon={<img src={`/img/chart.png`} />}
 					/>
 					<EachCard
 						Icon={<img src={`/img/company.png`} />}
