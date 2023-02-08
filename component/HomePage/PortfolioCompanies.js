@@ -1,4 +1,5 @@
 import ArrowRight from '@/public/img/arrow-right'
+import Link from 'next/link'
 import React from 'react'
 
 export default function PortfolioCompanies() {
@@ -19,10 +20,6 @@ export default function PortfolioCompanies() {
 					<EachCompany
 						title={`Energy & Extractives`}
 						img={`https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmluYW5jZXxlbnwwfHwwfHw%3D&w=1000&q=80`}
-					/>
-					<EachCompany
-						title={`Something Else Here`}
-						img={`https://mezcredit.com/wp-content/uploads/2020/01/Business-Finance-1.jpg`}
 					/>
 				</div>
 			</div>
@@ -55,9 +52,11 @@ const EachCompany = ({ title, img }) => {
 				style={{ zIndex: 10 }}
 			>
 				<p className="text-white fw-bold">{title}</p>
-				<p className="text-white fw-light">
-					Explore <ArrowRight color={'white'} />
-				</p>
+				<Link href={`/investment#companies`}>
+					<p className="text-white fw-light">
+						Explore <ArrowRight color={'white'} />
+					</p>
+				</Link>
 			</div>
 		</div>
 	)

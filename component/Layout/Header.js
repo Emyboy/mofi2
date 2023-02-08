@@ -121,7 +121,7 @@ export default function Header({}) {
 								)
 							})}
 
-							<li className="dropdown">
+							{/* <li className="dropdown">
 								<a href="#" className="text-dark">
 									Dropdown
 								</a>
@@ -184,7 +184,7 @@ export default function Header({}) {
 								<div className="dropdown-btn">
 									<i className="fa fa-angle-down"></i>
 								</div>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</nav>

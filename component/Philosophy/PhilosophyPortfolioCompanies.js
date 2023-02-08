@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function PhilosophyPortfolioCompanies() {
 	return (
-		<section>
+		<section id='companies'>
 			<div className="container pt-0">
 				<h3 className="font-weight-normal">Our Portfolio Companies</h3>
 				<div className="d-flex mb-5">

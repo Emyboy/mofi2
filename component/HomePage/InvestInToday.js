@@ -35,24 +35,29 @@ export default function InvestInToday() {
 							}}
 						>
 							<div className="card-body p-5 my-5">
-								<h3 className="font-weight-normal">
+								{/* <h3 className="font-weight-normal">
 									Invest in today & watch your future
 									flourish.
+								</h3> */}
+								<h3 className="font-weight-normal">
+									We are a oppose driven institution
 								</h3>
 								<p className="text-muted">
-									MOFI is tasked with thinking about tomorrow
-									today.We aspire to grow our portfolio to a
-									minimum of NGN 100 Trillion over the next 10
-									years.
+									Guided by the principle of building a more
+									prosperous nation, MoFI exists as a
+									sophisticated and state-owned asset
+									management company which focuses on
+									long-term wealth proliferation by
+									optimizing, re-investing and diversifying
+									the country’s income based on extensive
+									portfolio understanding, leveraging the
+									strengths of it’s workforce
 								</p>
 							</div>
 						</div>
 					</div>
 					<div className="col-sm-12 col-md-7">
-						<img
-							src={'/img/InvestInToday.svg'}
-							alt="invest"
-						/>
+						<img src={'/img/InvestInToday.svg'} alt="invest" />
 					</div>
 				</div>
 			</div>
