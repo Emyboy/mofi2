@@ -80,7 +80,7 @@ const SectionHeader = ({ heading, subHeading }) => {
 					>
 						{heading}
 					</h3>
-					<div className="page-breadcrumb py-3 col-md-7 col-sm-12">
+					<div className="page-breadcrumb py-3 col-sm-12">
 						<p>{subHeading}</p>
 					</div>
 				</div>

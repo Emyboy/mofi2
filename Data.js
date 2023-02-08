@@ -27,7 +27,7 @@ export default {
 					position: 'Council Member',
 				},
 				{
-					// img: '/img/people/Hadi.jpg',
+					img: '/img/people2/Emefiele-01.jpg',
 					title: 'Dr. Godwin Emefiele',
 					subTitle: '(Governor of the Central Bank of Nigeria)',
 					position: 'Council Member',
@@ -45,7 +45,7 @@ export default {
 					position: 'Council Member',
 				},
 				{
-					img: null,
+					img: `/img/people2`,
 					title: 'Prof. Muhammad Sagagi',
 					subTitle: null,
 					position: 'Council Member',
@@ -107,7 +107,7 @@ export default {
 					position: 'Board member',
 				},
 				{
-					img: null,
+					img: '/img/people2/Nda.jpg',
 					title: 'Mr Muhammad Nda',
 					subTitle: null,
 					position: 'Board member',
@@ -127,19 +127,19 @@ export default {
 				'Management executives, comprising MOFI’s leadership, oversee all business activities while ensuring growth and stability across all portfolios.',
 			people: [
 				{
-					img: null,
+					img: `/img/people2/ttk.jpg`,
 					title: 'Dr Armstrong Takang (PhD)',
 					subTitle: `CEO (Chief Executive Officer)`,
 					position: null,
 				},
 				{
-					img: null,
+					img: '/img/people2/Eric-01.jpg',
 					title: 'Mr Eric Olo',
 					subTitle: `CPO (Chief Portfolio Officer)`,
 					position: null,
 				},
 				{
-					img: null,
+					img: `/img/people2/Yakubu-01.jpg`,
 					title: 'Mr Sani Yakubu',
 					subTitle: `CIO (Chief Investment Officer)`,
 					position: null,
@@ -151,7 +151,7 @@ export default {
 					position: null,
 				},
 				{
-					img: null,
+					img: `/img/people2/AbdulQawil.jpg`,
 					title: 'Mr Abdulqawil Bello',
 					subTitle: `Company Secretary/Chief Legal Officer`,
 					position: null,
@@ -296,19 +296,19 @@ export default {
 			title: `Pacesetters Farm`,
 			category: `Industrials`,
 			img: ``,
-			description: `Pacesetter Farm engages in the development of sustainable socio-economic entrepreneurship policies that allows farmers make effective use of local resources. Pacesetter Farm is key to Nigeria’s long-term vision of enabling long term eco-friendly practices and food security. Paramount to the Federal government’s plan to increase youth employment, Pacesetters contributes to this goal by promoting farming as career for young people`
+			description: `Pacesetter Farm engages in the development of sustainable socio-economic entrepreneurship policies that allows farmers make effective use of local resources. Pacesetter Farm is key to Nigeria’s long-term vision of enabling long term eco-friendly practices and food security. Paramount to the Federal government’s plan to increase youth employment, Pacesetters contributes to this goal by promoting farming as career for young people`,
 		},
 		{
 			title: `Nigerian National Petroleum Corporation Ltd.`,
 			category: `Energy & Extractives`,
 			img: `https://ibekachikwu.com/wp-content/uploads/2020/09/5e0ab5ae-29a9-4ac6-9bc8-fe4f1e78a204.jpg`,
-			description: `NNPC Ltd was incorporated as a limited liability company on the 21st of September 2021 by the enactment of the PIA, 2021. NNPC was founded to harness the possibilities of oil and gas, to address energy demand and, drive the national economy. It is mandated to focus on profitability and continuous value addition transcending its implementation of legal and regulatory requirements.`
+			description: `NNPC Ltd was incorporated as a limited liability company on the 21st of September 2021 by the enactment of the PIA, 2021. NNPC was founded to harness the possibilities of oil and gas, to address energy demand and, drive the national economy. It is mandated to focus on profitability and continuous value addition transcending its implementation of legal and regulatory requirements.`,
 		},
 		{
 			title: `(Indorama) Eleme Petrochemical Company`,
 			category: `Energy & Extractives`,
 			img: `https://media.knowde.com/image/upload/f_auto,q_auto/v1614721888/production/Company/21345/logo/image`,
-			description: `Eleme Petrochemical Company was constructed in Port Harcourt, Rivers State, to take advantage of Nigeria’s abundant supplies of natural gas and designed to manufacture petrochemical products that are consistently in high demand in Nigeria’s growing and developing economy. The company also aligns with the FGN socioeconomic agenda by providing import substitutions for polymer products.`
+			description: `Eleme Petrochemical Company was constructed in Port Harcourt, Rivers State, to take advantage of Nigeria’s abundant supplies of natural gas and designed to manufacture petrochemical products that are consistently in high demand in Nigeria’s growing and developing economy. The company also aligns with the FGN socioeconomic agenda by providing import substitutions for polymer products.`,
 		},
 	],
 }
