@@ -15,7 +15,7 @@ import {
 	BsX,
 } from 'react-icons/bs'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSolid, faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 const navs = [
 	{
@@ -108,7 +108,7 @@ export default function Header({ pageName }) {
 							About
 							{/* <i className="fa fa-angle-down"></i> */}
 							<FontAwesomeIcon
-								icon={(faSolid, faAngleDown)}
+								icon={faAngleDown}
 								className="arrow"
 							/>
 							{/* <FontAwesomeIcon icon={faAngle} /> */}
@@ -122,7 +122,7 @@ export default function Header({ pageName }) {
 							Governance
 							{/* <i className="fa fa-angle-down"></i> */}
 							<FontAwesomeIcon
-								icon={(faSolid, faAngleDown)}
+								icon={faAngleDown}
 								className="arrow"
 							/>
 						</button>
@@ -135,7 +135,7 @@ export default function Header({ pageName }) {
 							Investment
 							{/* <i className="fa fa-angle-down"></i> */}
 							<FontAwesomeIcon
-								icon={(faSolid, faAngleDown)}
+								icon={faAngleDown}
 								className="arrow"
 							/>
 						</button>
@@ -148,7 +148,7 @@ export default function Header({ pageName }) {
 							Resources
 							{/* <i className="fa fa-angle-down"></i> */}
 							<FontAwesomeIcon
-								icon={(faSolid, faAngleDown)}
+								icon={faAngleDown}
 								className="arrow"
 							/>
 						</button>
