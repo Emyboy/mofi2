@@ -262,18 +262,24 @@ export default {
 			category: `Financial Services`,
 			img: `https://www.devbankng.com/img/screenshot2.PNG`,
 			description: `The DBN was established to facilitate sustainable socio-economic development through provision of funding to underserved SMEs in Nigeria.`,
+
+			metrix: `/metrix/10.png`,
 		},
 		{
 			title: `Family Homes Fund Limited`,
 			category: `Financial Services`,
 			img: `https://cdn.vanguardngr.com/wp-content/uploads/2021/07/family-hmes-fund.png`,
 			description: `Family Homes Funds Limited (FHFL) is a social housing financing fund aimed at improving the quality of life of Nigerians on low income through housing.`,
+
+			metrix: `/metrix/11.png`,
 		},
 		{
 			title: `International Finance Corporation (IFC)`,
 			category: `Financial Services`,
 			img: `https://www.developmentaid.org/files/organizationLogos/ifc-international-finance-corporation-tanzania-243438.jpg`,
 			description: `IFC engage in the business of assisting developing countries to achieve sustainable growth by financing private sector investment, mobilizing capital in international financial markets.`,
+
+			metrix: `/metrix/12.png`,
 		},
 		{
 			title: `Capital Hotels Plc`,
