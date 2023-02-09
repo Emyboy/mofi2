@@ -4,30 +4,45 @@ import { Modal } from 'react-bootstrap'
 import Metrics from './Metrics'
 
 export default function PhilosophyPortfolioCompanies() {
+	const cats = [
+		'Infrastructure',
+		`Financial Services`,
+		`Services`,
+		`Industrials`,
+		`Energy & Extractives`,
+	]
+	const [activeCategory, setActiveCategory] = useState(cats[0])
+
 	return (
 		<section id="portfolio-companies">
 			<div className="container pt-0">
 				<h3 className="font-weight-normal">Our Portfolio Companies</h3>
 				<div className="d-flex mb-5">
-					<EachNav text={`Infrastructure`} active />
-					<EachNav text={`Financial Services`} />
-					<EachNav text={`Services`} />
-					<EachNav text={`Industrials`} />
-					<EachNav text={`Energy & Extractives`} />
+					{cats.map((val) => {
+						return (
+							<EachNav
+								text={val}
+								active={activeCategory === val}
+								onClick={() => setActiveCategory(val)}
+							/>
+						)
+					})}
 				</div>
 				<br />
 				<br />
 				<div className="row">
 					{Data.companies.map((val, i) => {
-						return (
-							<EachCompany
-								heading={val.title}
-								subHeading={val.category}
-								img={val.img}
-								description={val.description}
-								company={val}
-							/>
-						)
+						if (val.category === activeCategory) {
+							return (
+								<EachCompany
+									heading={val.title}
+									subHeading={val.category}
+									img={val.img}
+									description={val.description}
+									company={val}
+								/>
+							)
+						}
 					})}
 				</div>
 			</div>
@@ -40,7 +55,9 @@ const EachNav = ({ text, active, onClick }) => {
 		<button
 			onClick={onClick}
 			className={`mx-2 btn py-2 ${
-				active ? 'bg-theme text-white' : 'text-theme bg-theme-light'
+				active
+					? 'bg-theme text-white fw-bold'
+					: 'text-theme bg-theme-light'
 			}`}
 		>
 			{text}

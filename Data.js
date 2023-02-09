@@ -244,18 +244,93 @@ export default {
 			category: `Infrastructure`,
 			img: `https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/kkx7gybv0zzeheipshnj`,
 			description: `EKEDC Is one of the successor distribution companies (Discos) created following the unbundling and privatization of the state-owned Power Utility, Power Holding Company of Nigeria Plc. EKEDC is responsible for retail distribution of electricity in southern part of Lagos state and Agbara in Ogun state.`,
+
+			cac_compliance: true,
+			board_rep: false,
+			shareholding: '8%',
+			cluster: '2 States',
+			board_members: 6,
+			operating_structure: true,
+			executive_directors: 5,
+			staff_strength: `1,909`,
+			other_shareholders: `BPE 32%; WPG Ltd.,`,
+
+			profit_margin_fy18: `-77%`,
+			profit_margin_fy19: `154%`,
+			profit_margin_fy20: `12%`,
+
+			roe_fy18: `NA`,
+			roe_fy19: `237%`,
+			roe_fy20: `18%`,
+
+			equity_fy18: `-6%`,
+			equity_fy19: `11%`,
+			equity_fy20: `7%`,
+
+			mofi_equity: `NGN 43.94b`,
+			asset_stake: `NGN 25.56b`,
 		},
 		{
 			title: `Enugu Electricity Distribution Company Plc (EEDC)`,
 			category: `Infrastructure`,
 			img: `https://one.jumia.com.ng/static-assets/operators/eko.jpg`,
 			description: `EDC Is one of the successor distributions companies (Discos) created following the unbundling and privatization of the state-owned Power Utility, Power Holding Company of Nigeria Plc. EEDC is responsible for retail distribution of electricity in Anambra, Enugu, Imo, Abia, and Ebonyi state.`,
+
+			cac_compliance: true,
+			board_rep: false,
+			shareholding: '8%',
+			cluster: '5 States',
+			board_members: 7,
+			operating_structure: true,
+			executive_directors: 5,
+			staff_strength: `1,955`,
+			other_shareholders: `BPE 32%; Interstate Ltd`,
+
+			profit_margin_fy18: `- 104%`,
+			profit_margin_fy19: `- 113%`,
+			profit_margin_fy20: `56%`,
+
+			roe_fy18: `NA`,
+			roe_fy19: `NA`,
+			roe_fy20: `NA`,
+
+			equity_fy18: `- 15%`,
+			equity_fy19: `10%`,
+			equity_fy20: `-75%`,
+
+			mofi_equity: `NGN 30.05b`,
+			asset_stake: `NGN (10.82)b`,
 		},
 		{
 			title: `FGN Road Sukuk Company 1 Plc`,
 			category: `Infrastructure`,
 			img: ``,
 			description: `FGN Roads Sukuk Company 1 Plc was established by the FGN as a Special Purpose Vehicle (SPV) with the sole aim of raising fund to finance Sukuk based projects. The Company is a strategic fit for MOFI’s portfolio and poses a significant impact in areas of national growth through development of infrastructure in Nigeria.`,
+
+			cac_compliance: true,
+			board_rep: false,
+			shareholding: '60%',
+			cluster: '5 States',
+			board_members: 7,
+			operating_structure: true,
+			executive_directors: 5,
+			staff_strength: `1,955`,
+			other_shareholders: `BPE 32%; Interstate Ltd`,
+
+			profit_margin_fy18: `- 104%`,
+			profit_margin_fy19: `- 113%`,
+			profit_margin_fy20: `56%`,
+
+			roe_fy18: `NA`,
+			roe_fy19: `NA`,
+			roe_fy20: `NA`,
+
+			equity_fy18: `- 15%`,
+			equity_fy19: `10%`,
+			equity_fy20: `-75%`,
+
+			mofi_equity: `NGN 30.05b`,
+			asset_stake: `NGN (10.82)b`,
 		},
 		{
 			title: `Geregu Power Plc`,
