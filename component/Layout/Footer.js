@@ -16,13 +16,13 @@ export default function Footer() {
 								<h6 className="widget-title">Explore</h6>
 								<ul className="user-links">
 									<li>
-										<Link href="#">Home</Link>
+										<Link href="/">Home</Link>
 									</li>
 									<li>
-										<Link href="#">About Us</Link>
+										<Link href="/about">About Us</Link>
 									</li>
 									<li>
-										<Link href="#">
+										<Link href="/governance">
 											Corporate Governance
 										</Link>
 									</li>
@@ -34,12 +34,12 @@ export default function Footer() {
 								<h6 className="widget-title">Quick Links</h6>
 								<ul className="user-links">
 									<li>
-										<Link href="#">
+										<Link href="/investment">
 											Our Investment Philosophy
 										</Link>
 									</li>
 									<li>
-										<Link href="#">
+										<Link href="/resources">
 											News, Media & Resources
 										</Link>
 									</li>
@@ -51,7 +51,7 @@ export default function Footer() {
 								<h6 className="widget-title">Support</h6>
 								<ul className="user-links">
 									<li>
-										<Link href="#">Give us feedback</Link>
+										<Link href="/contact">Give us feedback</Link>
 									</li>
 								</ul>
 							</div>
