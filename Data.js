@@ -215,31 +215,7 @@ export default {
 			img: ``,
 			description: `FGN Roads Sukuk Company 1 Plc was established by the FGN as a Special Purpose Vehicle (SPV) with the sole aim of raising fund to finance Sukuk based projects. The Company is a strategic fit for MOFI’s portfolio and poses a significant impact in areas of national growth through development of infrastructure in Nigeria.`,
 
-			cac_compliance: true,
-			board_rep: false,
-			shareholding: '60%',
-			cluster: null,
-			duration: '18 Months',
-			board_members: 7,
-			operating_structure: true,
-			executive_directors: 5,
-			staff_strength: `N/A`,
-			other_shareholders: `DMO`,
-
-			profit_margin_fy18: `NA`,
-			profit_margin_fy19: `NA`,
-			profit_margin_fy20: `NA`,
-
-			roe_fy18: `NA`,
-			roe_fy19: `NA`,
-			roe_fy20: `NA`,
-
-			equity_fy18: `NA`,
-			equity_fy19: `NA`,
-			equity_fy20: `NA`,
-
-			mofi_equity: `NGN 0`,
-			asset_stake: `NGN 0`,
+			metrix: `/metrix/4.png`,
 		},
 		{
 			title: `Geregu Power Plc`,
@@ -247,49 +223,31 @@ export default {
 			img: `https://images.africanfinancials.com/1458e1a1-ng-geregu-logo.png`,
 			description: `Geregu Power Plc is involved in electric power generation and the sale of electric power through the Transmission Company of Nigeria.`,
 
-			cac_compliance: true,
-			board_rep: false,
-			shareholding: '60%',
-			cluster: null,
-			duration: '18 Months',
-			board_members: 7,
-			operating_structure: true,
-			executive_directors: 5,
-			staff_strength: `N/A`,
-			other_shareholders: `DMO`,
-
-			profit_margin_fy18: `NA`,
-			profit_margin_fy19: `NA`,
-			profit_margin_fy20: `NA`,
-
-			roe_fy18: `NA`,
-			roe_fy19: `NA`,
-			roe_fy20: `NA`,
-
-			equity_fy18: `NA`,
-			equity_fy19: `NA`,
-			equity_fy20: `NA`,
-
-			mofi_equity: `NGN 0`,
-			asset_stake: `NGN 0`,
+			metrix: `/metrix/5.png`,
 		},
 		{
 			title: `Kaduna Electricity Distribution Company`,
 			category: `Infrastructure`,
 			img: `https://tribuneonlineng.com/wp-content/uploads/2017/04/kedco.jpg`,
 			description: `Kaduna Electricity Distribution Company Plc. was established to offer sustainable energy to people as part of the electricity power sector reform program implementation.`,
+
+			metrix: `/metrix/6.png`,
 		},
 		{
 			title: `Nigerian Bulk Electricity Trading Plc (NBET)`,
 			category: `Infrastructure`,
 			img: `https://media.licdn.com/dms/image/C560BAQFKpTISnarKRA/company-logo_200_200/0/1519864899855?e=2147483647&v=beta&t=73nV0OO9x-rd7X450CyEddogoTU1zLnxXie2cGGNaYE`,
 			description: `NBET was established to offer sustainable energy to people by trading in the wholesale electricity market as bulk purchaser and bulk seller of electricity as part of the electricity power sector reform program implementation.`,
+
+			metrix: `/metrix/7.png`,
 		},
 		{
 			title: `African Development Bank`,
 			category: `Financial Services`,
 			img: `https://pbs.twimg.com/profile_images/1315989039342923778/5cJ-fhvP_400x400.jpg`,
 			description: `AfDB was established to spur sustainable economic development and social progress in its regional member countries and social progress in its regional member countries by contributing to poverty reduction.`,
+
+			metrix: `/metrix/8.png`,
 		},
 		{
 			title: `Africa Export-Import Bank (AFREXIM)`,
