@@ -254,6 +254,8 @@ export default {
 			category: `Financial Services`,
 			img: `https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Afreximbank_Logo_RGB.jpg/800px-Afreximbank_Logo_RGB.jpg`,
 			description: `AFREXIM was established to facilitate Africa’s trade finance ecosystem and stimulate a consistent expansion, diversification and development of African trade, while operating as a first class, profit-oriented, socially responsible financial institution and a center of excellence in African trade matters.`,
+
+			metrix: `/metrix/9.png`,
 		},
 		{
 			title: `Development Bank of Nigeria PLC (DBN)`,

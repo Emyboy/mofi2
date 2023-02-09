@@ -90,7 +90,7 @@ export default function Header({ pageName }) {
 				id="navbarTogglerDemo01"
 			>
 				<Link className="navbar-brand" href="/">
-					<Img src="/img/logom.svg" width={200} height={100} />
+					<Img src="/img/logom.svg" width={120} height={100} />
 				</Link>
 				<div className="navbar1 ">
 					<Link
