@@ -14,7 +14,7 @@ export default function Transformation() {
 									Who we are
 								</p>
 								<h3 className="font-weight-normal my-4">
-									MOFI - A VEHICLE OF TRANSFORMATION
+									Mofi - A Vehicle of Transformation
 								</h3>
 								<p className="text-muted font-weight-bold">
 									The Ministry of Finance Incorporated (MOFI)
@@ -24,8 +24,9 @@ export default function Transformation() {
 									a significant portfolio of Federal
 									Government investments, spanning a wide
 									variety of asset classes, including
-									Government Owned Entities (GOEs) and
-									Government Linked Companies (GLCs).
+									corporate assets, financial assets, fixed
+									assets, mineral and intangible assets,
+									cash-flow-generating transactions.
 								</p>
 								<Link href={'/'} className="text-theme fw-bold">
 									Learn More <ArrowRight />
@@ -55,7 +56,9 @@ export default function Transformation() {
 							<div className="col-sm-12 col-lg-6 mt-3">
 								<div className="card h-100 bg-theme-light">
 									<div className="card-body">
-										<p className='fw-bold'>Mineral and intangible assets</p>
+										<p className="fw-bold">
+											Mineral and intangible assets
+										</p>
 										<p className="text-muted">
 											Mineral and intangible assets
 											(hydrocarbons)
@@ -66,8 +69,10 @@ export default function Transformation() {
 							<div className="col-sm-12 col-lg-6 mt-3">
 								<div className="card h-100 bg-theme">
 									<div className="card-body">
-										<p className='text-white fw-bold'>Cash-flow-generating transactions</p>
-										<p className='text-white'>
+										<p className="text-white fw-bold">
+											Cash-flow-generating transactions
+										</p>
+										<p className="text-white">
 											Cash-flow-generating transactions,
 											such as concession agreements and
 											public private partnerships

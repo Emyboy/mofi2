@@ -4,6 +4,11 @@ export default function Document() {
 	return (
 		<Html lang="en">
 			<Head>
+				<title>Mofi | Ministry of Finance Incorporated</title>
+				<meta
+					name="description"
+					content="Investing in Nigeria's future today"
+				></meta>
 				<script
 					src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 					integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -25,7 +30,10 @@ export default function Document() {
 					href="https://fonts.gstatic.com"
 					crossOrigin
 				/>
-				<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"></link>
+				<link
+					rel="stylesheet"
+					href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"
+				></link>
 				<link
 					href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
 					rel="stylesheet"

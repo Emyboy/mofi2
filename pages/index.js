@@ -46,14 +46,12 @@ export default function index() {
 							</div>
 							<div className="page-breadcrumb">
 								<Link
-									href={'/'}
+									href={'/about'}
 									className="btn bg-theme text-white py-3 px-3 rounded"
 								>
-									Contact Support
-								</Link>
-								<Link href={'/'} className="mx-4 text-white">
 									Learn More
 								</Link>
+								
 							</div>
 						</div>
 					</div>

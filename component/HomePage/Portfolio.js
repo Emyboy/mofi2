@@ -18,12 +18,9 @@ export default function Portfolio() {
 							className="text-white"
 							style={{ lineHeight: '50px' }}
 						>
-							The Ministry of Finance Incorporated (MOFI) was
-							established in 1959 as a platform to take charge of
-							all investments made by the Federal Government of
-							Nigeria. MOFI manages a significant portfolio of
-							Federal Government investments, spanning a wide
-							variety of a
+							Mofi is tasked with thinking about tomorrow today.We
+							aspire to grow our portfolio to a minimum of NGN 100
+							Trillion over the next 10 years.
 						</p>
 					</div>
 					<div className="col-md-6 col-sm-12">
@@ -32,9 +29,9 @@ export default function Portfolio() {
 								<div className="card bg-theme h-100">
 									<div className="card-body p-5">
 										<div className="d-flex">
-											<Bin />
-											<h3 className="mx-3 font-weight-normal text-white">
-												37 bn
+											{/* <Bin /> */}
+											<h3 className=" font-weight-normal text-white">
+												₦ 37 bn
 											</h3>
 										</div>
 										<p className=" text-white fw-light">
@@ -47,9 +44,9 @@ export default function Portfolio() {
 								<div className="card bg-theme h-100">
 									<div className="card-body p-5">
 										<div className="d-flex">
-											<Bin />
-											<h3 className="mx-3 font-weight-normal text-white">
-												18 bn
+											{/* <Bin /> */}
+											<h3 className=" font-weight-normal text-white">
+												₦ 18 bn
 											</h3>
 										</div>
 										<p className=" text-white fw-light">
@@ -63,9 +60,9 @@ export default function Portfolio() {
 						<div className="card bg-theme mt-4">
 							<div className="card-body p-5 text-center">
 								<div className="d-flex justify-content-center">
-									<Bin />
-									<h3 className="mx-3 font-weight-normal text-white">
-										52 Entities
+									{/* <Bin /> */}
+									<h3 className=" font-weight-normal text-white">
+										 52 Entities
 									</h3>
 								</div>
 								<p className=" text-white fw-light">

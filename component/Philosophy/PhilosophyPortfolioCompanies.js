@@ -1,27 +1,32 @@
-import React from 'react'
+import Data from '@/Data'
+import React, { useState } from 'react'
+import { Modal } from 'react-bootstrap'
 
 export default function PhilosophyPortfolioCompanies() {
 	return (
-		<section>
+		<section id="portfolio-companies">
 			<div className="container pt-0">
 				<h3 className="font-weight-normal">Our Portfolio Companies</h3>
 				<div className="d-flex mb-5">
 					<EachNav text={`Infrastructure`} active />
-					<EachNav text={`Infrastructure`} />
-					<EachNav text={`Infrastructure`} />
-					<EachNav text={`Infrastructure`} />
+					<EachNav text={`Financial Services`} />
+					<EachNav text={`Services`} />
+					<EachNav text={`Industrials`} />
+					<EachNav text={`Energy & Extractives`} />
 				</div>
 				<br />
 				<br />
 				<div className="row">
-					<EachCompany />
-					<EachCompany />
-					<EachCompany />
-					<EachCompany />
-					<EachCompany />
-					<EachCompany />
-					<EachCompany />
-					<EachCompany />
+					{Data.companies.map((val, i) => {
+						return (
+							<EachCompany
+								heading={val.title}
+								subHeading={val.category}
+								img={val.img}
+								description={val.description}
+							/>
+						)
+					})}
 				</div>
 			</div>
 		</section>
@@ -41,17 +46,75 @@ const EachNav = ({ text, active, onClick }) => {
 	)
 }
 
-const EachCompany = () => {
+const EachCompany = ({ heading, subHeading, img, description }) => {
+	const [show, setShow] = useState(false)
+
 	return (
 		<div className="col-md-4 mb-4">
+			<Modal show={show} onHide={() => setShow(false)} size="lg">
+				<Modal.Header closeButton>
+					<Modal.Title>Learn More</Modal.Title>
+				</Modal.Header>
+				<Modal.Body>
+					<img src={img} width={140} className="mb-3" />
+					{
+						<div className="col-sm-12 col-md-7">
+							<p>{description}</p>
+						</div>
+					}
+					<br />
+					{/* <div className="row">
+						<div class="col-md-5 col-sm-12">
+							<div className="card bg-theme-light w-100">
+								<h6 className="mb-0">Operation & Governance</h6>
+							</div>
+							<table className="table table-bordered cart-total">
+								<tbody>
+									<tr>
+										<td>CAC Compliance</td>
+										<td> </td>
+										<td>MOFI Board Rep</td>
+										<td> </td>
+									</tr>
+									<tr>
+										<td>MOFI Shareholding</td>
+										<td> </td>
+										<td>Operation cluster</td>
+										<td> </td>
+									</tr>
+									<tr>
+										<td>Total Board Members</td>
+										<td> </td>
+										<td>Adequate Operating Structure</td>
+										<td> </td>
+									</tr>
+								</tbody>
+							</table>
+							<a
+								class="theme-btn btn-style-one"
+								href="shop-checkout.html"
+							>
+								<span class="btn-title">
+									Proceed to Checkout
+								</span>{' '}
+							</a>{' '}
+						</div>
+					</div> */}
+				</Modal.Body>
+			</Modal>
 			<div
-				className="card bg-dark mx-3 bg-img image-1 overlay-anim wow fadeInUp animated"
+				onClick={() => setShow(true)}
+				className="card mx-3 bg-img image-1 overlay-anim wow fadeInUp animated"
 				style={{
 					minWidth: '300px',
-					height: '430px',
-					backgroundImage: `url(https://www.blueprint.ng/wp-content/uploads/2020/09/NNPC-LOGO.jpe)`,
+					height: '330px',
+					cursor: 'pointer',
+					// backgroundImage: `url(${img})`,
 				}}
 			>
+				<div className="text-center ">
+					<img src={img} width={200} />
+				</div>
 				<div
 					className="overlay p-4"
 					style={{
@@ -63,13 +126,11 @@ const EachCompany = () => {
 					}}
 				/>
 				<div
-					className="card-body d-flex flex-column justify-content-end"
+					className="card-body d-flex flex-column justify-content-end pt-0"
 					style={{ zIndex: 10 }}
 				>
-					<p className="text-white fw-bold">
-						Infrastructure & Services
-					</p>
-					<p className="text-white fw-light">Explore </p>
+					<p className="text-white fw-bold mb-2">{heading}</p>
+					<p className="text-white fw-light">{subHeading} </p>
 				</div>
 			</div>
 		</div>

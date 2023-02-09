@@ -46,9 +46,10 @@ export default function PhilosophyHero() {
 					<EachCard
 						text={`Portfolio composition and asset mix`}
 						Icon={<img src={`/img/home.png`} />}
-					/>
+						/>
 					<EachCard
 						text={`Portfolio management & Value-creation approach`}
+						Icon={<img src={`/img/chart.png`} />}
 					/>
 					<EachCard
 						Icon={<img src={`/img/company.png`} />}
@@ -78,7 +79,7 @@ const EachCard = ({ text, Icon }) => {
 				className="card"
 				style={{
 					backgroundImage: `url(/img/philosophy-card-bg.png)`,
-					height: width < Constants.tablet_width ? '300px' : '370px',
+					height: width < Constants.tablet_width ? '300px' : '318px',
 					backgroundSize: 'auto',
 					backgroundSize: 'cover',
 					backgroundRepeat: 'no-repeat',

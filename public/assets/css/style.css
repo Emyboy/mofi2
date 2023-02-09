@@ -47,7 +47,7 @@ License: copyright commercial
 :root {
   --theme-color1: #0f0f0f;
   --theme-color2: #1E944F;
-  --theme-color2-dark: #e42b2b;
+  --theme-color2-dark: #00BC6D;
   --theme-color3: #f3f3f3;
   --bg-theme-color1: var(--theme-color1);
   --bg-theme-color2: var(--theme-color2);
@@ -3979,8 +3979,8 @@ Section Title
 }
 .service-block-two .count::after {
   opacity: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#e42b2b), to(transparent));
-  background: linear-gradient(to right, #e42b2b, transparent);
+  background: -webkit-gradient(linear, left top, right top, from(#00BC6D), to(transparent));
+  background: linear-gradient(to right, #00BC6D, transparent);
 }
 .service-block-two .icon-box {
   position: relative;
@@ -4040,7 +4040,7 @@ Section Title
 }
 .service-block-three .inner-box:hover .read-more i {
   color: #ffffff;
-  background-color: #e42b2b;
+  background-color: #00BC6D;
 }
 .service-block-three .content {
   position: relative;

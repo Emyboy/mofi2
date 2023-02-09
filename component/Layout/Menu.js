@@ -180,7 +180,7 @@ export const MenuTwo = () => {
 										</div>
 
 										<div className="mt-2">
-											<Link href="/">
+											<Link href="/governance">
 												<div className="row d-flex arrow1">
 													<p className="link2 col-lg-10 p-0 text-white">
 														Corporate
@@ -208,7 +208,7 @@ export const MenuTwo = () => {
 											/>
 										</div>
 										<div className="mt-2">
-											<Link href="/">
+											<Link href="/governance">
 												<div className="row d-flex arrow1">
 													<p className="link2 col-lg-11 p-0 text-white">
 														Governing Council
@@ -236,7 +236,7 @@ export const MenuTwo = () => {
 											/>
 										</div>
 										<div className="mt-2">
-											<Link href="/">
+											<Link>
 												<div className="row d-flex arrow1 p-0">
 													<p className="link2 col-lg-11 p-0 text-white">
 														Board of Directors
@@ -323,7 +323,7 @@ export const MenuThree = () => {
 								</div>
 
 								<div className="mt-2">
-									<Link href="/">
+									<Link href="/investment">
 										<div className="row d-flex arrow1 p-0">
 											<p className="link2 col-lg-11 p-0 text-white">
 												Portfolio Companies
@@ -351,7 +351,7 @@ export const MenuThree = () => {
 								</div>
 
 								<div className="mt-2">
-									<Link href="/">
+									<Link href="/investment">
 										<div className="row d-flex arrow1">
 											<p className="link2 col-lg-10 p-0 text-white">
 												Investment Philosophy
@@ -408,7 +408,7 @@ export const MenuFour = () => {
 									/>
 								</div>
 								<div className="mt-2">
-									<Link href="/">
+									<Link href="/resources">
 										<div className="row d-flex arrow1 p-0">
 											<p className="link col-lg-11 p-0 text-white">
 												News/Media
