@@ -182,6 +182,7 @@ export default {
 			category: `Infrastructure`,
 			img: `https://nairadata.com.ng/wp-content/uploads/2020/07/Abuja-Electric.jpg`,
 			description: `AEDC Is one of the successor distributions companies (Discos) created following the unbundling and privatization of the state-owned Power Utility, Power Holding Company of Nigeria Plc. AEDC is responsible for retail distribution of electricity in Abuja, Niger, Kogi and Nasarawa states. On the 10th of August 2021, AEDC recorded the highest number of metered customers.`,
+
 			cac_compliance: true,
 			board_rep: false,
 			shareholding: '80%',
@@ -190,6 +191,19 @@ export default {
 			operating_structure: true,
 			executive_directors: 3,
 			staff_strength: `3,474`,
+			other_shareholders: `BPE 32%; KANN 60%`,
+
+			profit_margin_fy18: `- 104%`,
+			profit_margin_fy19: `49%`,
+			profit_margin_fy20: `- 12%`,
+
+			roe_fy18: `NA`,
+			roe_fy19: `NA`,
+			roe_fy20: `NA`,
+
+			equity_fy18: `-23%`,
+			equity_fy19: `-551%`,
+			equity_fy20: `- 107%`,
 
 			mofi_equity: `NGN 59.34b`,
 			asset_stake: `NGN (8.05)b`,
@@ -199,6 +213,31 @@ export default {
 			category: `Infrastructure`,
 			img: `https://i0.wp.com/www.thisdaylive.com/wp-content/uploads/BEDC.jpg?w=800&ssl=1`,
 			description: `BEDC Is one of the successor distributions companies (Discos) created following the unbundling and privatization of the state-owned Power Utility, Power Holding Company of Nigeria Plc. BEDC is responsible for retail distribution of electricity in Delta, Edo, Ekiti, and Ondo States.`,
+
+			cac_compliance: true,
+			board_rep: false,
+			shareholding: '8%',
+			cluster: '4 States',
+			board_members: 7,
+			operating_structure: true,
+			executive_directors: 2,
+			staff_strength: `1,503`,
+			other_shareholders: `BPE 32%; Vigeo Power Ltd`,
+
+			profit_margin_fy18: `- 104%`,
+			profit_margin_fy19: `49%`,
+			profit_margin_fy20: `- 12%`,
+
+			roe_fy18: `NA`,
+			roe_fy19: `NA`,
+			roe_fy20: `NA`,
+
+			equity_fy18: `-23%`,
+			equity_fy19: `-551%`,
+			equity_fy20: `- 107%`,
+
+			mofi_equity: `NGN 59.34b`,
+			asset_stake: `NGN (8.05)b`,
 		},
 		{
 			title: `EKO Electricity Distribution Company Plc (EKEDC)`,

@@ -39,6 +39,7 @@ export default function Metrics({ company }) {
 								<td>Staff Strength</td>
 								<td>{company.staff_strength}</td>
 							</tr>
+
 							<tr>
 								<td>Operation cluster</td>
 								<td>{company.cluster} </td>
@@ -55,6 +56,10 @@ export default function Metrics({ company }) {
 								</td>
 								<td>Executive Directors</td>
 								<td> {company.executive_directors}</td>
+							</tr>
+							<tr>
+								<td>Other Shareholders</td>
+								<td>{company.other_shareholders}</td>
 							</tr>
 						</tbody>
 					</table>
@@ -87,21 +92,21 @@ export default function Metrics({ company }) {
 						<tbody>
 							<tr>
 								<th scope="row">Profit Margin</th>
-								<td>Mark</td>
-								<td>Otto</td>
-								<td>@mdo</td>
+								<td>{company.profit_margin_fy18}</td>
+								<td>{company.profit_margin_fy19}</td>
+								<td>{company.profit_margin_fy20}</td>
 							</tr>
 							<tr>
 								<th scope="row">ROE</th>
-								<td>Jacob</td>
-								<td>Thornton</td>
-								<td>@fat</td>
+								<td>{company.roe_fy18}</td>
+								<td>{company.roe_fy19}</td>
+								<td>{company.roe_fy20}</td>
 							</tr>
 							<tr>
 								<th scope="row">Debt to Equity</th>
-								<td>Jacob</td>
-								<td>Thornton</td>
-								<td>@fat</td>
+								<td>{company.equity_fy18}</td>
+								<td>{company.equity_fy19}</td>
+								<td>{company.equity_fy20}</td>
 							</tr>
 						</tbody>
 					</table>
