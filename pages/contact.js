@@ -25,16 +25,16 @@ export default function contact() {
 							Looking to Send us a<br /> Message at MoFI??
 						</h1>
 						<div className="page-breadcrumb py-3">
-							<p className="text-white">
+							{/* <p className="text-white">
 								Our user-friendly interface and intuitive
 								features make managing your
 								<br /> finances a breeze, so you can focus on
 								the things that matter most.
-							</p>
+							</p> */}
 						</div>
 						<div className="page-breadcrumb">
 							<Link
-								href={'/'}
+								href={'/contact#message'}
 								className="btn bg-theme text-white py-3 px-3 rounded"
 							>
 								Message Us

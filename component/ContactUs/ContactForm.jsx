@@ -120,7 +120,7 @@ export default function ContactForm() {
 				</div>
 			</section>
 
-			<section className="team-contact-form">
+			<section className="team-contact-form" id="message">
 				<div className="container pb-100">
 					<div className="sec-title text-center">
 						<span className="sub-title">Contact With Us Now</span>
