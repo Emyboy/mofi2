@@ -9,13 +9,13 @@ import React from 'react'
 
 export default function index() {
 	return (
-		<Layout>
+		<Layout pageName={'home'}>
 			<div>
 				<section
 					className="page-title"
 					style={{
 						backgroundImage: `url(/img/jumbo-img.png)`,
-						paddingBottom: '26vh'
+						paddingBottom: '26vh',
 					}}
 				>
 					<div className="auto-container">
