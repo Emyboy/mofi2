@@ -41,8 +41,8 @@ export default function Metrics({ company }) {
 							</tr>
 
 							<tr>
-								<td>Operation cluster</td>
-								<td>{company.cluster} </td>
+								<td>Operation {company.cluster ? `Cluster`: `Duration`}</td>
+								<td>{company[company.cluster ? 'cluster': 'duration']} </td>
 								<td>Total Board Members</td>
 								<td> {company.board_members}</td>
 							</tr>

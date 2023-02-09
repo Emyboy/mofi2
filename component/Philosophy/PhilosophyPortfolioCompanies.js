@@ -40,6 +40,7 @@ export default function PhilosophyPortfolioCompanies() {
 									img={val.img}
 									description={val.description}
 									company={val}
+									index={i}
 								/>
 							)
 						}
@@ -65,7 +66,7 @@ const EachNav = ({ text, active, onClick }) => {
 	)
 }
 
-const EachCompany = ({ heading, subHeading, img, description, company }) => {
+const EachCompany = ({ heading, subHeading, img, description, company, index }) => {
 	const [show, setShow] = useState(false)
 
 	return (
@@ -74,15 +75,14 @@ const EachCompany = ({ heading, subHeading, img, description, company }) => {
 				<Modal.Header closeButton>
 					<Modal.Title>Learn More</Modal.Title>
 				</Modal.Header>
-				<Modal.Body>
+				<Modal.Body className='text-center'>
 					<img src={img} width={140} className="mb-3" />
 					{
-						<div className="col-sm-12 col-md-7">
 							<p>{description}</p>
-						</div>
 					}
 					<br />
-					<Metrics company={company} />
+					{/* <Metrics company={company} /> */}
+					<img src={company.metrix} width={700} />
 				</Modal.Body>
 			</Modal>
 			<div
