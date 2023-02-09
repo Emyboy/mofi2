@@ -4,7 +4,6 @@ import Link from 'next/link'
 import { useWindowSize } from 'react-use'
 import Constants from '@/constants'
 import { HiMenuAlt3 } from 'react-icons/hi'
-import { HiChevronDown } from 'react-icons/hi'
 import { MenuOne, MenuTwo, MenuThree, MenuFour } from './Menu.js'
 import {
 	BsFacebook,
@@ -15,6 +14,8 @@ import {
 	BsTwitter,
 	BsX,
 } from 'react-icons/bs'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSolid, faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 const navs = [
 	{
@@ -22,7 +23,7 @@ const navs = [
 		route: '/',
 	},
 	{
-		name: 'About Us',
+		name: 'About',
 		route: '/about',
 	},
 	{
@@ -85,6 +86,19 @@ export default function Header({ pageName }) {
 
 	return (
 		<header className="navbar navbar-expand-lg navbar-light bg-light px-5 py-3">
+			{/* <button
+				className="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarTogglerDemo01"
+				aria-controls="navbarTogglerDemo01"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+				style={{ position: 'relative', left: '66vw' }}
+			>
+				<span className="navbar-toggler-icon"></span>
+			</button> */}
+			{/* <div className="p-2 bg-danger"></div> */}
 			<div
 				className="collapse navbar-collapse justify-content-between"
 				id="navbarTogglerDemo01"
@@ -106,7 +120,10 @@ export default function Header({ pageName }) {
 						<button className="dropbtn1 lii link2">
 							About
 							{/* <i className="fa fa-angle-down"></i> */}
-							<HiChevronDown size={20} />
+							<FontAwesomeIcon
+								icon={(faSolid, faAngleDown)}
+								className="arrow"
+							/>
 							{/* <FontAwesomeIcon icon={faAngle} /> */}
 						</button>
 						<div className="dropdown-content1">
@@ -117,7 +134,10 @@ export default function Header({ pageName }) {
 						<button className="dropbtn1 lii link2">
 							Governance
 							{/* <i className="fa fa-angle-down"></i> */}
-							<HiChevronDown size={20} />
+							<FontAwesomeIcon
+								icon={(faSolid, faAngleDown)}
+								className="arrow"
+							/>
 						</button>
 						<div className="dropdown-content1">
 							<MenuTwo />
@@ -127,7 +147,10 @@ export default function Header({ pageName }) {
 						<button className="dropbtn1 lii link2">
 							Investment
 							{/* <i className="fa fa-angle-down"></i> */}
-							<HiChevronDown size={20} />
+							<FontAwesomeIcon
+								icon={(faSolid, faAngleDown)}
+								className="arrow"
+							/>
 						</button>
 						<div className="dropdown-content1">
 							<MenuThree />
@@ -137,7 +160,10 @@ export default function Header({ pageName }) {
 						<button className="dropbtn1 lii link2">
 							Resources
 							{/* <i className="fa fa-angle-down"></i> */}
-							<HiChevronDown size={20} />
+							<FontAwesomeIcon
+								icon={(faSolid, faAngleDown)}
+								className="arrow"
+							/>
 						</button>
 						<div className="dropdown-content1">
 							<MenuFour />
