@@ -9,7 +9,7 @@ export default function PhilosophyHero() {
 			<section
 				className="page-title"
 				style={{
-					backgroundImage: `url(/img/jumbo-img.png)`,
+					backgroundImage: `url(https://i.pinimg.com/originals/8f/5a/e7/8f5ae70811c317d0e861fde6cd3a9646.jpg)`,
 					paddingBottom: '26vh',
 				}}
 			>
@@ -46,7 +46,7 @@ export default function PhilosophyHero() {
 					<EachCard
 						text={`Portfolio composition and asset mix`}
 						Icon={<img src={`/img/home.png`} />}
-						/>
+					/>
 					<EachCard
 						text={`Portfolio management & Value-creation approach`}
 						Icon={<img src={`/img/chart.png`} />}

@@ -9,7 +9,7 @@ export default function resources() {
 			<section
 				className="page-title"
 				style={{
-					backgroundImage: `url(/img/jumbo-img.png)`,
+					backgroundImage: `url(https://images.unsplash.com/photo-1610736311554-fc17d5c43de8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGFyayUyMGRlc2t8ZW58MHx8MHx8&w=1000&q=80)`,
 					paddingBottom: '26vh',
 				}}
 			>

@@ -7,7 +7,7 @@ export default function AboutUsHero() {
 			<section
 				className="page-title"
 				style={{
-					backgroundImage: `url(/img/jumbo-img.png)`,
+					backgroundImage: `url(https://assets.iflscience.com/assets/articleNo/59407/aImg/35612/1618500111-a-dark-forest-on-earth-o-meta.png)`,
 					paddingBottom: '26vh',
 				}}
 			>
@@ -22,21 +22,26 @@ export default function AboutUsHero() {
 						>
 							The Ministry of{' '}
 							<span className="text-theme">
-								Finance<br /> Incorporated
+								Finance
+								<br /> Incorporated
 							</span>{' '}
 							(MOFI), 1959
 						</h1>
 						<div className="page-breadcrumb py-3">
 							<p className="text-white">
 								a platform to take charge of all investments
-								made by the Federal Government of Nigeria.<br />
+								made by the Federal Government of Nigeria.
+								<br />
 								MOFI manages a significant portfolio of Federal
-								Government investments, spanning a wide<br /> variety
-								of asset classes, including Government Owned
-								Entities (GOEs) and Government Linked<br /> Companies
-								(GLCs). As such, it is well placed to support
-								the Federal Government to address its<br /> economic
-								challenges and spur a renewal of the economy.
+								Government investments, spanning a wide
+								<br /> variety of asset classes, including
+								Government Owned Entities (GOEs) and Government
+								Linked
+								<br /> Companies (GLCs). As such, it is well
+								placed to support the Federal Government to
+								address its
+								<br /> economic challenges and spur a renewal of
+								the economy.
 							</p>
 						</div>
 					</div>
