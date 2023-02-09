@@ -286,60 +286,80 @@ export default {
 			category: `Services`,
 			img: `https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/ergkextegbfvar4kdtpu`,
 			description: `IFC engage in the business of assisting developing countries to achieve sustainable growth by financing private sector investment, mobilizing capital in international financial markets.`,
+			metrix: `/metrix/13.png`,
 		},
 		{
 			title: `Transcorp Hotels Plc`,
 			category: `Services`,
 			img: `https://www.transcorphotels.com/wp-content/uploads/2019/02/Copy-of-Untitled-2.png`,
 			description: `Transcorp Hotels Plc. is the hospitality subsidiary of Transnational Corporation of Nigeria Plc (“Transcorp”)`,
+
+			metrix: `/metrix/14.png`,
+			
 		},
 		{
 			title: `Galaxy Backbone Limited (GBB)`,
 			category: `Services`,
 			img: `https://media.licdn.com/dms/image/C560BAQGIciUa3R5cRg/company-logo_200_200/0/1519878433678?e=2147483647&v=beta&t=2fXshAmCEdTOy0ZT6xqPd0Zt6wYEqw09-tOm6mX71V4`,
 			description: `Galaxy Backbone is the information technology and shared services provider of the Federal Government of Nigeria (FGN)`,
+
+			metrix: `/metrix/15.png`,
 		},
 		{
 			title: `NIPOST`,
 			category: `Services`,
 			img: `https://live.mrf.io/statics/i/ps/i0.wp.com/www.thisdaylive.com/wp-content/uploads/NIPOST.jpg?w=866&ssl=1&width=1200&enable=upscale`,
 			description: `Information and communication infrastructure are critical parts of every country’s economy and development. The postal service is hence crucial to the FGN socioeconomic agenda.`,
+
+			metrix: `/metrix/16.png`,
 		},
 		{
 			title: `Nigeria Security Printing & Minting Company`,
 			category: `Industrials`,
 			img: `https://dailytrust.com/wp-content/uploads/2021/06/Nigeria-Security-Printing-and-Minting-Company-NSPM.jpg`,
 			description: `Money is the backbone of every economy and hence there must exist the highest degree of trust in the securities issued by a country’s government. The Nigeria Security Printing & Minting Company is crucial to the FGN’s Socioeconomic agenda, as it produces cash and other securities necessary for economic transactions.`,
+
+			metrix: `/metrix/17.png`,
 		},
 		{
 			title: `The DICON`,
 			category: `Industrials`,
 			img: `https://worldstagenews.com/wp-content/uploads/2020/06/DICON.png`,
 			description: `The DICON was established to facilitate sustainable socio-economic development through the manufacture and supply of arms and ammunition for the Armed Forces and other security organizations.`,
+
+			metrix: `/metrix/18.png`,
 		},
 		{
 			title: `Neespree Ltd.`,
 			category: `Industrials`,
 			img: ``,
 			description: `Neespree Ltd is a Spinoff company registered for the purpose of commercializing post-harvest technologies developed by the Nigerian Stored Products Research Institute.`,
+
+			metrix: `/metrix/19.png`,
 		},
 		{
 			title: `Pacesetters Farm`,
 			category: `Industrials`,
 			img: ``,
 			description: `Pacesetter Farm engages in the development of sustainable socio-economic entrepreneurship policies that allows farmers make effective use of local resources. Pacesetter Farm is key to Nigeria’s long-term vision of enabling long term eco-friendly practices and food security. Paramount to the Federal government’s plan to increase youth employment, Pacesetters contributes to this goal by promoting farming as career for young people`,
+
+			metrix: `/metrix/20.png`,
 		},
 		{
 			title: `Nigerian National Petroleum Corporation Ltd.`,
 			category: `Energy & Extractives`,
 			img: `https://ibekachikwu.com/wp-content/uploads/2020/09/5e0ab5ae-29a9-4ac6-9bc8-fe4f1e78a204.jpg`,
 			description: `NNPC Ltd was incorporated as a limited liability company on the 21st of September 2021 by the enactment of the PIA, 2021. NNPC was founded to harness the possibilities of oil and gas, to address energy demand and, drive the national economy. It is mandated to focus on profitability and continuous value addition transcending its implementation of legal and regulatory requirements.`,
+
+			metrix: `/metrix/21.png`,
 		},
 		{
 			title: `(Indorama) Eleme Petrochemical Company`,
 			category: `Energy & Extractives`,
 			img: `https://media.knowde.com/image/upload/f_auto,q_auto/v1614721888/production/Company/21345/logo/image`,
 			description: `Eleme Petrochemical Company was constructed in Port Harcourt, Rivers State, to take advantage of Nigeria’s abundant supplies of natural gas and designed to manufacture petrochemical products that are consistently in high demand in Nigeria’s growing and developing economy. The company also aligns with the FGN socioeconomic agenda by providing import substitutions for polymer products.`,
+
+			metrix: `/metrix/22.png`,
 		},
 	],
 }
