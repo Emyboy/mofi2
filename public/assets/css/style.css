@@ -1901,14 +1901,15 @@ Main Header
 }
 .main-menu .navigation > li.dropdown > a {
   padding-right: 14px;
-  margin-right: -14px;
+  /* margin-right: -14px; */
 }
 .main-menu .navigation > li.dropdown > a:after {
   content: "\f107";
   position: absolute;
   right: 0;
   top: 50%;
-  width: 10px;
+    /* width: 100vh; */
+  width: auto;
   height: 20px;
   display: block;
   line-height: 24px;
@@ -1922,8 +1923,18 @@ Main Header
 .main-menu .navigation > li.dropdown:hover > ul {
   visibility: visible;
   opacity: 1;
+  float: left;
+  overflow: hidden;
   top: 100%;
+  position: absolute;
+  width: auto;
   margin-top: 0;
+  box-sizing: border-box;
+  margin: 0;
+		padding: 0;
+		left: 0;
+		right: 0;
+  /* overflow: hidden; */
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
@@ -1932,13 +1943,13 @@ Main Header
   position: absolute;
   left: 0px;
   top: 100%;
-  width: 220px;
+  /* width: 500px; */
   z-index: 100;
   padding: 10px 0 0;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   margin-top: 30px;
   opacity: 0;
-  display: none;
+  display: block;
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
@@ -1977,6 +1988,7 @@ Main Header
   font-family: "Font Awesome 6 Pro";
   content: "\f105";
   position: absolute;
+  width: auto;
   right: 0;
   top: 11px;
   display: block;
@@ -2040,7 +2052,7 @@ Main Header
   position: absolute;
   right: 10px;
   top: 8px;
-  width: 34px;
+  /* width: 34px; */
   height: 30px;
   border: 1px solid #ffffff;
   text-align: center;

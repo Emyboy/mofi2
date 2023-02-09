@@ -4,8 +4,7 @@ import Link from 'next/link'
 import { useWindowSize } from 'react-use'
 import Constants from '@/constants'
 import { HiMenuAlt3 } from 'react-icons/hi'
-import { HiChevronDown } from 'react-icons/hi'
-import { MenuOne, MenuTwo, MenuThree, MenuFour } from './Menu.js'
+import Menu from './Menuone'
 import {
 	BsFacebook,
 	BsLinkedin,
@@ -15,8 +14,6 @@ import {
 	BsTwitter,
 	BsX,
 } from 'react-icons/bs'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSolid, faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 const navs = [
 	{
@@ -40,7 +37,7 @@ const navs = [
 		route: '/resources',
 	},
 ]
-export default function Header({ pageName }) {
+export default function Header({}) {
 	const [show, setShow] = useState(false)
 	const { width } = useWindowSize()
 	const [showNav, setShowNav] = useState(false)
@@ -72,7 +69,7 @@ export default function Header({ pageName }) {
 					onClick={toggleSideNav}
 				>
 					<Link className="navbar-brand" href="/">
-						<Img src="/img/logom.svg" width={100} height={100} />
+						<Img src="/img/logo.png" width={100} height={100} />
 					</Link>
 					<button className="btn p-0">
 						<HiMenuAlt3 size={30} />
@@ -86,7 +83,7 @@ export default function Header({ pageName }) {
 	}
 
 	return (
-		<header className="navbar navbar-expand-lg navbar-light bg-light px-5 py-3">
+		<header className="navbar navbar-expand-lg navbar-light bg-light px-5 py-1">
 			{/* <button
 				className="navbar-toggler"
 				type="button"
@@ -105,76 +102,46 @@ export default function Header({ pageName }) {
 				id="navbarTogglerDemo01"
 			>
 				<Link className="navbar-brand" href="/">
-					<Img src="/img/logom.svg" width={200} height={100} />
+					<Img src="/img/logo.png" width={100} height={100} />
 				</Link>
-				<div className="navbar1 ">
-					<Link
-						href="/"
-						className={`link2 lii ${
-							pageName === 'home' && 'active1'
-						}`}
-					>
-						Home
-					</Link>
-
-					<div className="dropdown1">
-						<button className="dropbtn1 lii link2">
-							About
-							{/* <i className="fa fa-angle-down"></i> */}
-							{/* <FontAwesomeIcon
-								icon={(faSolid, faAngleDown)}
-								className="arrow"
-							/> */}
-							<HiChevronDown className="arrow" size={20} />
-							{/* <FontAwesomeIcon icon={faAngle} /> */}
-						</button>
-						<div className="dropdown-content1">
-							<MenuOne />
-						</div>
+				<nav className="main-menu">
+					<div className="navbar-collapse show collapse clearfix">
+						<ul className="navigation clearfix">
+							<li className="dropdown">
+								<a href="#" className="text-dark">
+									Dropdown
+								</a>
+								<ul>
+									<Menu />
+									{/*
+									<li>
+										<a href="page-about.html">About</a>
+									</li>
+									 <li className="dropdown">
+										<a href="#" className="text-dark">
+											Projects
+										</a>
+									</li> */}
+								</ul>
+								<div className="dropdown-btn">
+									<i className="fa fa-angle-down"></i>
+								</div>
+							</li>
+							{navs.map((val) => {
+								return (
+									<li>
+										<Link
+											className="text-dark"
+											href={val.route}
+										>
+											{val.name}
+										</Link>
+									</li>
+								)
+							})}
+						</ul>
 					</div>
-					<div className="dropdown1">
-						<button className="dropbtn1 lii link2">
-							Governance
-							{/* <i className="fa fa-angle-down"></i> */}
-							{/* <FontAwesomeIcon
-								icon={(faSolid, faAngleDown)}
-								className="arrow"
-							/> */}
-							<HiChevronDown className="arrow" size={20} />
-						</button>
-						<div className="dropdown-content1">
-							<MenuTwo />
-						</div>
-					</div>
-					<div className="dropdown1">
-						<button className="dropbtn1 lii link2">
-							Investment
-							{/* <i className="fa fa-angle-down"></i> */}
-							{/* <FontAwesomeIcon
-								icon={(faSolid, faAngleDown)}
-								className="arrow"
-							/> */}
-							<HiChevronDown className="arrow" size={20} />
-						</button>
-						<div className="dropdown-content1">
-							<MenuThree />
-						</div>
-					</div>
-					<div className="dropdown1">
-						<button className="dropbtn1 lii link2">
-							Resources
-							{/* <i className="fa fa-angle-down"></i> */}
-							{/* <FontAwesomeIcon
-								icon={(faSolid, faAngleDown)}
-								className="arrow"
-							/> */}
-							<HiChevronDown className="arrow" size={20} />
-						</button>
-						<div className="dropdown-content1">
-							<MenuFour />
-						</div>
-					</div>
-				</div>
+				</nav>
 				<form className="form-inline my-2 my-lg-0">
 					<Link
 						className="bg-theme text-white btn my-2 my-sm-0"

@@ -1,4 +1,3 @@
-
 import '../public/assets/css/bootstrap.min.css'
 import '../public/assets/plugins/revolution/css/settings.css'
 import '../public/assets/plugins/revolution/css/layers.css'
