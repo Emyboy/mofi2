@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useWindowSize } from 'react-use'
 import Constants from '@/constants'
 import { HiMenuAlt3 } from 'react-icons/hi'
+import { HiChevronDown } from 'react-icons/hi'
 import { MenuOne, MenuTwo, MenuThree, MenuFour } from './Menu.js'
 import {
 	BsFacebook,
@@ -14,8 +15,6 @@ import {
 	BsTwitter,
 	BsX,
 } from 'react-icons/bs'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 const navs = [
 	{
@@ -107,10 +106,7 @@ export default function Header({ pageName }) {
 						<button className="dropbtn1 lii link2">
 							About
 							{/* <i className="fa fa-angle-down"></i> */}
-							<FontAwesomeIcon
-								icon={faAngleDown}
-								className="arrow"
-							/>
+							<HiChevronDown size={20} />
 							{/* <FontAwesomeIcon icon={faAngle} /> */}
 						</button>
 						<div className="dropdown-content1">
@@ -121,10 +117,7 @@ export default function Header({ pageName }) {
 						<button className="dropbtn1 lii link2">
 							Governance
 							{/* <i className="fa fa-angle-down"></i> */}
-							<FontAwesomeIcon
-								icon={faAngleDown}
-								className="arrow"
-							/>
+							<HiChevronDown size={20} />
 						</button>
 						<div className="dropdown-content1">
 							<MenuTwo />
@@ -134,10 +127,7 @@ export default function Header({ pageName }) {
 						<button className="dropbtn1 lii link2">
 							Investment
 							{/* <i className="fa fa-angle-down"></i> */}
-							<FontAwesomeIcon
-								icon={faAngleDown}
-								className="arrow"
-							/>
+							<HiChevronDown size={20} />
 						</button>
 						<div className="dropdown-content1">
 							<MenuThree />
@@ -147,10 +137,7 @@ export default function Header({ pageName }) {
 						<button className="dropbtn1 lii link2">
 							Resources
 							{/* <i className="fa fa-angle-down"></i> */}
-							<FontAwesomeIcon
-								icon={faAngleDown}
-								className="arrow"
-							/>
+							<HiChevronDown size={20} />
 						</button>
 						<div className="dropdown-content1">
 							<MenuFour />
