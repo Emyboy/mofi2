@@ -23,7 +23,7 @@ export default function Footer() {
 									</li>
 									<li>
 										<Link href="#">
-											Co-Operate Governance
+											Corporate Governance
 										</Link>
 									</li>
 								</ul>

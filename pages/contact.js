@@ -22,7 +22,7 @@ export default function contact() {
 								lineHeight: '79px',
 							}}
 						>
-							Looking to Send us a<br /> Message at MOFI??
+							Looking to Send us a<br /> Message at MoFI??
 						</h1>
 						<div className="page-breadcrumb py-3">
 							<p className="text-white">
