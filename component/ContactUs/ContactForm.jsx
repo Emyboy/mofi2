@@ -54,10 +54,7 @@ export default function ContactForm() {
 									</span>
 									<h2>Get in touch with us</h2>
 									<div className="text">
-										Our user-friendly interface and
-										intuitive features make managing your
-										finances a breeze, so you can focus on
-										the things that matter most.
+										Feel free to reach out to use at any time.
 									</div>
 								</div>
 								<ul className="list-unstyled contact-details__info">
@@ -125,7 +122,7 @@ export default function ContactForm() {
 					<div className="sec-title text-center">
 						<span className="sub-title">Contact With Us Now</span>
 						<h2 className="section-title__title">
-							Feel Free to Write Our <br /> Tecnology Experts
+							Feel Free to Write to <br /> us
 						</h2>
 					</div>
 					<div className="row justify-content-center">
