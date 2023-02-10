@@ -51,7 +51,9 @@ export default function Footer() {
 								<h6 className="widget-title">Support</h6>
 								<ul className="user-links">
 									<li>
-										<Link href="/contact">Give us feedback</Link>
+										<Link href="/contact">
+											Give us feedback
+										</Link>
 									</li>
 								</ul>
 							</div>
@@ -95,7 +97,7 @@ export default function Footer() {
 								src="/img/flag.png"
 								className="mx-1 bg-white rounded-circle"
 							/>
-							© 2023 MOFI. All right reserved.
+							© 2023 Copyright <a href='www.mofi.com.ng'>MOFI</a>
 						</div>
 						<div className="copyright-text col-lg-4 col-sm-12">
 							<ul className="nav">

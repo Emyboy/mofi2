@@ -54,7 +54,8 @@ export default function ContactForm() {
 									</span>
 									<h2>Get in touch with us</h2>
 									<div className="text">
-										Feel free to reach out to use at any time.
+										Feel free to reach out to use at any
+										time.
 									</div>
 								</div>
 								<ul className="list-unstyled contact-details__info">
@@ -67,7 +68,7 @@ export default function ContactForm() {
 										<div className="text">
 											<h6>Have any question?</h6>
 											<a href="tel:0916-194-9158">
-												<span>Free</span> 0916-194-9158
+												0700-CALL-MOFI (0700-2255-6634)
 											</a>
 										</div>
 									</li>
