@@ -9,23 +9,22 @@ export default function StrategicPillars() {
 				<div className="row">
 					<EachCard
 						img={`https://www.rightsourcemarketing.com/wp-content/uploads/2014/11/Spotting-the-Ownership-Mentality-in-Employees.jpg`}
-						heading={`Professionalising 
-state ownership`}
-						subHeading={`We work to ensure all state owned entities are professionally managed and positioned to achieve economic impact.`}
+						heading={`Professionalising state ownership`}
+						subHeading={`We work to ensure all state-owned entities are professionally managed and positioned to achieve greater economic impact.`}
 					/>
 					<EachCard
 						img={`https://www.theforage.com/blog/wp-content/uploads/2022/07/finance-careers.jpg`}
 						heading={`Finance the economy`}
-						subHeading={`With 52 companies, ₦18 Trillion estimated value of holdings and over 15,000 people employed; we are a significant financial driver of the Nigerian economy.`}
+						subHeading={`With 52 companies, ₦18 trillion estimated value of holdings and over 15,000 people employed, we are a significant financial driver of the Nigerian economy.`}
 					/>
 					<EachCard
-						heading={`Source funding and investments for Government owned entities [GOE] and Government linked companies [GLCs]`}
-						subHeading={`We are equipped with the capacity to source for and acquire required funding for the growth and development of all the companies under our portfolio.`}
+						heading={`Source funding and investments for GOEs and GLCs`}
+						subHeading={`We have the capacity to source for and acquire funding for the growth and development of all the companies under our portfolio.`}
 						img={`https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/07/finance.jpeg.jpg`}
 					/>
 					<EachCard
-						heading={`Advance socioeconomic objectives`}
-						subHeading={`At our core, we are focussed on initiatives designed to not just generate profit for the economy, but also ensure impact across all key sectors and areas of the Nigerian economy.`}
+						heading={`Advance socio-economic objectives`}
+						subHeading={`We are committed to pursuing initiatives that generate profit and impact all key sectors and areas of the Nigerian economy.`}
 						img={`https://cdn.punchng.com/wp-content/uploads/2018/11/06045957/entreppreneu-pers-finance.jpg`}
 					/>
 				</div>

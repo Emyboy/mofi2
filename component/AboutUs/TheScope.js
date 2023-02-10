@@ -6,25 +6,27 @@ export default function TheScope() {
 	return (
 		<section className="news-section bg-gray">
 			<div className="container py-0">
-			<h3 className="text-theme mb-5 text-center">The Scope of Mofi's Activities</h3>
-			<br />
-			<br />
-			<br />
+				<h3 className="text-theme mb-5 text-center">
+					The Scope of Mofi's Activities
+				</h3>
+				<br />
+				<br />
+				<br />
 				<EachScope
 					img={`/img/growth.png`}
 					heading={`High-growth priority sectors`}
-					subHeading={`Up to 80% of funds for new investments may be devoted to identified sectors, including manufacturing, digital services, and agriculture.`}
+					subHeading={`We devote up to 80% of new investment funds to identified sectors, including manufacturing, digital services, and agriculture.`}
 				/>
 				<EachScope
 					img={`/img/assets.png`}
 					heading={`Asset classes`}
-					subHeading={`We ensure a well diversified portfolio across sectors and asset classes, from energy to manufacturing to agriculture.`}
+					subHeading={`We ensure a well diversified portfolio across sectors and asset classes, from energy to manufacturing and agriculture.`}
 					flip
 				/>
 				<EachScope
 					img={`/img/geography.png`}
 					heading={`Geography`}
-					subHeading={`We aim to grow the portfolio in Nigeria while exploring Nigeria while exploring opportunities for diversification in the global market.`}
+					subHeading={`We aim to grow our portfolio in Nigeria while exploring opportunities for diversification in the global market.`}
 				/>
 			</div>
 		</section>

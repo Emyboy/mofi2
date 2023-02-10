@@ -63,8 +63,9 @@ export default function Footer() {
 							<div className="footer-widget contacts-widget">
 								<h6 className="widget-title">Contact</h6>
 								<div className="text">
-									Tower 2 BOI Bldg, Plot 256 A O., Herbert
-									Macaulay Way, CBD, Abuja
+									Tower 2 Bank of Industry (BOI) building plot
+									256 A O. off Herbert Macaulay way Central
+									Business District, Abuja
 								</div>
 								<ul className="contact-info">
 									<li>
@@ -76,8 +77,8 @@ export default function Footer() {
 									</li>
 									<li>
 										{/* <BsFillTelephoneFill /> */}
-										<a href="tel:0916-194-9158">
-											0916-194-9158
+										<a href="tel:0700-2255-6634">
+											(0700-2255-6634)
 										</a>
 										<br />
 									</li>
@@ -97,7 +98,7 @@ export default function Footer() {
 								src="/img/flag.png"
 								className="mx-1 bg-white rounded-circle"
 							/>
-							© 2023 Copyright <a href='www.mofi.com.ng'>MOFI</a>
+							© 2023 Copyright <a href="www.mofi.com.ng">MOFI</a>
 						</div>
 						<div className="copyright-text col-lg-4 col-sm-12">
 							<ul className="nav">
