@@ -25,6 +25,7 @@ export default function index() {
 								style={{
 									fontWeight: 'normal',
 									lineHeight: '79px',
+									fontSize: '51px',
 								}}
 							>
 								Investing in{' '}
@@ -38,9 +39,10 @@ export default function index() {
 								<p className="text-white">
 									MOFI is the investment vehicle of the
 									Federal Government of Nigeria. We are
-									helping to<br /> transform Nigeria’s economy,
-									making it more diverse, prosperous, and
-									optimised for investments and growth.
+									helping to
+									<br /> transform Nigeria’s economy, making
+									it more diverse, prosperous, and optimised
+									for investments and growth.
 								</p>
 							</div>
 							<div className="page-breadcrumb">
