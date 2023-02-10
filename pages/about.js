@@ -16,7 +16,7 @@ export default function about() {
 			<TheScope />
 			<section>
 				<div className="container my-">
-					<h3 className='mb-4 text-theme'>Our Asset Classes</h3>
+					<h3 className="mb-4 text-theme">Our Asset Classes</h3>
 					<br />
 					<div className="row">
 						<EachAboutCard
@@ -37,12 +37,12 @@ export default function about() {
 						<EachAboutCard
 							heading={`Mineral and intangible assets`}
 							body={`Mineral and intangible assets (hydrocarbons)`}
-							img={`https://thumbs.dreamstime.com/b/wooden-blocks-word-invest-house-hands-businessman-concept-investing-real-estate-construction-161769612.jpg`}
+							img={`https://media.istockphoto.com/id/1202891900/photo/3d-illustration-of-molecule-model-atom-benzil-a-compound-of-hydrogen-and-carbon.jpg?s=612x612&w=0&k=20&c=XP7dMalFeh1PToeB3paEZS7__vVm5qJuTxUqLAwEumQ=`}
 						/>
 						<EachAboutCard
 							heading={`Cash-flow-generating transactions`}
 							body={`Cash-flow-generating transactions, such as concession agreements and public private partnerships`}
-							img={`https://cfoshare.org/wp-content/uploads/2020/08/AdobeStock_108489224-scaled.jpeg`}
+							img={`https://www.brookings.edu/wp-content/uploads/2016/07/dollars_naira001.jpg`}
 						/>
 					</div>
 				</div>
