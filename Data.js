@@ -74,12 +74,35 @@ export default {
 					title: 'Dr Shamsuddeen Usman',
 					subTitle: null,
 					position: 'Chair',
+					description: `Dr Shamsuddeen Usman, CON, is currently the Chairman/CEO of Susman and Associates (S&A) Limited. He has a BSc, MSc, and PhD in Economics. He is a fellow of the Nigerian Economic Society, the Chartered Institute of Bankers, and the Society for Corporate Governance of Nigeria. 
+					<br />
+					<br />
+					Dr Usman was the managing director of NAL Merchant Bank between 1995 and 1999 before he was appointed as a deputy governor of the Central Bank of Nigeria. He was in that position between 1999 and 2007. Dr Usman was Nigeria’s minister of finance between 2007 and 2009. He later served as the minister of national planning from 2009 to 2013. 
+					<br />
+					<br />
+					He has over 35 years of professional experience in Management Consulting, Economics Advisory, Strategic Planning and Business Strategy, Corporate Finance Advisory and Financial Modelling, Research, Data Collection and Analysis, Managerial Finance and Due Diligence, Strategy and Leadership Development, Banking, Risk and Project Management, Policy Formulation, Implementation, and Analysis. Recently, through his company Susman and Associates, he has been involved in designing a short- to medium-term strategic plan for the states in north-eastern Nigeria and designing and implementing a comprehensive performance monitoring and evaluation system for the Lagos State Government.
+					<br/>
+					<br/>
+					He has also undertaken case studies on the failure in the Nigerian Banking Industry and assessed recent mergers and acquisitions for the NDIC. He conducted a study on the Voice and Voting Power (VVP) of the Minority Shareholder in the Nigerian Capital Market and obtained the principle commitment of the Securities and Exchange Commission, Nigerian Stock Exchange, Corporate Affairs Commission, and the Bureau of Public Enterprises. He was involved in conceptualising, organising and inaugurating the Nigeria Electricity Market Summit Group (NEMSG) that brings key stakeholders regularly together to discuss critical issues in the Nigerian Electricity Market.
+
+`,
 				},
 				{
 					img: `/img/people2/ttk.jpg`,
 					title: 'Dr Armstrong Takang (PhD)',
 					subTitle: null,
 					position: 'CEO (Chief Executive Officer)',
+					description: `Dr Armstrong Takang is the pioneer Chief Executive Officer of MOFI. Before his appointment, he was the special adviser (ICT) to the Minister of Finance,  the head of the Ministry’s Project Management Office and head of the MOFI Transition Team. He was a consultant at KPMG New York, the team lead for the private banking group of leading financial institutions, and also led the implementation of Oracle PeopleSoft for the post-acquisition organisational transformation of a tier 1 financial institution in Nigeria.
+					<br />
+					<br />
+					A technology and private equity specialist, Dr Armstrong worked with the Bureau of Public Sector Reforms (BPSR) to design and implement the Integrated Payroll and Personnel Information System (IPPIS). He also managed the World Bank and European Union-sponsored Integrated Financial and Economic Management Information System Project.
+					<br />
+					<br />
+					He led the tax amnesty programme under the Federal Ministry of Finance, Voluntary Asset and Income Declaration Scheme (VAIDS), generated over ₦114 billion in additional revenue for the government, and the debt recovery initiative he spearheaded has generated over ₦60 billion in a year with a potential of recovering over ₦4 trillion. He also led the establishment of the Office for Nigerian Content Development in ICT under NITDA, and steered the team that assisted in the setup and deployment of the ICT component of the Economic and Financial Crimes Commission (EFCC) and Nigeria Financial Intelligence Unit (NFIU).
+					<br />
+					<br />
+					Dr Armstrong was a member of the ministerial committee for the restructuring of the Ministry of Finance Incorporated, a member of the committee which developed a policy on Nigerian Content Development in ICT, and a member of the FGN’s committee responsible for Nigeria’s 50-year Development Plan. He was also the chairman of the Nigeria National ICT Strategic Action Plan Committee and the Nigeria National Software Development Task Force. He is an alumnus of the University of Hull, the Imperial College Business School London, and Harvard Business School. Dr Armstrong is also a creative entrepreneur and successful author. 
+					`,
 				},
 				{
 					img: `/img/people2/Eric-01.jpg`,
@@ -295,7 +318,6 @@ export default {
 			description: `Transcorp Hotels Plc. is the hospitality subsidiary of Transnational Corporation of Nigeria Plc (“Transcorp”)`,
 
 			metrix: `/metrix/14.png`,
-			
 		},
 		{
 			title: `Galaxy Backbone Limited (GBB)`,
