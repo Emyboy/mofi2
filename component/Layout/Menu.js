@@ -41,7 +41,7 @@ export const MenuOne = () => {
 
 													<div className="col-lg-2 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -70,7 +70,7 @@ export const MenuOne = () => {
 
 													<div className="col-lg-1 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -99,7 +99,7 @@ export const MenuOne = () => {
 
 													<div className="col-lg-1 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -127,7 +127,7 @@ export const MenuOne = () => {
 
 													<div className="col-lg-1 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -188,7 +188,7 @@ export const MenuTwo = () => {
 
 													<div className="col-lg-2 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -216,7 +216,7 @@ export const MenuTwo = () => {
 
 													<div className="col-lg-1 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -244,7 +244,7 @@ export const MenuTwo = () => {
 
 													<div className="col-lg-1 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -272,7 +272,7 @@ export const MenuTwo = () => {
 
 													<div className="col-lg-1 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -332,7 +332,7 @@ export const MenuThree = () => {
 
 											<div className="col-lg-1 p-0">
 												<img
-													src="./img/frame.svg"
+													src="./img/Frame.svg"
 													// className="w-5"
 													width={'28px'}
 													alt=""
@@ -360,7 +360,7 @@ export const MenuThree = () => {
 
 											<div className="col-lg-1 p-0">
 												<img
-													src="./img/frame.svg"
+													src="./img/Frame.svg"
 													// className="w-5"
 													width={'28px'}
 													alt=""
@@ -417,7 +417,7 @@ export const MenuFour = () => {
 
 											<div className="col-lg-1 p-0">
 												<img
-													src="./img/frame.svg"
+													src="./img/Frame.svg"
 													// className="w-5"
 													width={'28px'}
 													alt=""
@@ -445,7 +445,7 @@ export const MenuFour = () => {
 
 										<div className="col-lg-5 p-0">
 											<img
-												src="./img/frame.svg"
+												src="./img/Frame.svg"
 												// className="w-5"
 												width={'28px'}
 												alt=""
