@@ -402,7 +402,7 @@ export const MenuFour = () => {
 							<div className="col-lg-3 column-bg">
 								<div className="p-2">
 									<img
-										src="./img/port.svg"
+										src="./img/Port.svg"
 										// className="w-100"
 										width={'48px'}
 										alt=""
