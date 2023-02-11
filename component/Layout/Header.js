@@ -38,7 +38,7 @@ const navs = [
 		route: '/resources',
 	},
 ]
-export default function Header({}) {
+export default function Header({ pageName }) {
 	const [show, setShow] = useState(false)
 	const { width } = useWindowSize()
 	const [showNav, setShowNav] = useState(false)
@@ -70,7 +70,7 @@ export default function Header({}) {
 					onClick={toggleSideNav}
 				>
 					<Link className="navbar-brand" href="/">
-						<Img src="/img/logo.png" width={100} height={100} />
+						<Img src="/img/logom.svg" width={100} height={100} />
 					</Link>
 					<button className="btn p-0">
 						<HiMenuAlt3 size={30} />
@@ -84,96 +84,78 @@ export default function Header({}) {
 	}
 
 	return (
-		<header className="navbar navbar-expand-lg navbar-light bg-light px-5 py-1">
-			{/* <button
-				className="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarTogglerDemo01"
-				aria-controls="navbarTogglerDemo01"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-				style={{ position: 'relative', left: '66vw' }}
-			>
-				<span className="navbar-toggler-icon"></span>
-			</button> */}
-			{/* <div className="p-2 bg-danger"></div> */}
+		<header className="navbar navbar-expand-lg navbar-light bg-light px-5 py-3">
 			<div
 				className="collapse navbar-collapse justify-content-between"
 				id="navbarTogglerDemo01"
 			>
-				<div
-					className="collapse navbar-collapse justify-content-between"
-					id="navbarTogglerDemo01"
-				>
-					<Link className="navbar-brand" href="/">
-						<Img src="/img/logom.svg" width={200} height={100} />
+				<Link className="navbar-brand" href="/">
+					<Img src="/img/logom.svg" width={120} height={100} />
+				</Link>
+				<div className="navbar1 ">
+					<Link
+						href="/"
+						className={`link2 lii ${
+							pageName === 'home' && 'active1'
+						}`}
+					>
+						Home
 					</Link>
-					<div className="navbar1 ">
-						<Link
-							href="/"
-							className={`link2 lii ${
-								pageName === 'home' && 'active1'
-							}`}
-						>
-							Home
-						</Link>
 
-						<div className="dropdown1">
-							<button className="dropbtn1 lii link2">
-								About
-								{/* <i className="fa fa-angle-down"></i> */}
-								<HiChevronDown size={20} />
-							</button>
-							<div className="dropdown-content1">
-								<MenuOne />
-							</div>
-						</div>
-						<div className="dropdown1">
-							<button className="dropbtn1 lii link2">
-								Governance
-								{/* <i className="fa fa-angle-down"></i> */}
-								<HiChevronDown size={20} />
-							</button>
-							<div className="dropdown-content1">
-								<MenuTwo />
-							</div>
-						</div>
-						<div className="dropdown1">
-							<button className="dropbtn1 lii link2">
-								Investment
-								{/* <i className="fa fa-angle-down"></i> */}
-								<HiChevronDown size={20} />
-							</button>
-							<div className="dropdown-content1">
-								<MenuThree />
-							</div>
-						</div>
-						<div className="dropdown1">
-							<button className="dropbtn1 lii link2">
-								Resources
-								{/* <i className="fa fa-angle-down"></i> */}
-								<HiChevronDown size={20} />
-							</button>
-							<div className="dropdown-content1">
-								<MenuFour />
-							</div>
+					<div className="dropdown1">
+						<button className="dropbtn1 lii link2">
+							About
+							{/* <i className="fa fa-angle-down"></i> */}
+							<HiChevronDown size={20} />
+							{/* <FontAwesomeIcon icon={faAngle} /> */}
+						</button>
+						<div className="dropdown-content1">
+							<MenuOne />
 						</div>
 					</div>
-					<form className="form-inline my-2 my-lg-0">
-						<Link
-							className="bg-theme text-white btn my-2 my-sm-0"
-							href={`/contact`}
-						>
-							Contact Us
-						</Link>
-					</form>
+					<div className="dropdown1">
+						<button className="dropbtn1 lii link2">
+							Governance
+							{/* <i className="fa fa-angle-down"></i> */}
+							<HiChevronDown size={20} />
+						</button>
+						<div className="dropdown-content1">
+							<MenuTwo />
+						</div>
+					</div>
+					<div className="dropdown1">
+						<button className="dropbtn1 lii link2">
+							Investment
+							{/* <i className="fa fa-angle-down"></i> */}
+							<HiChevronDown size={20} />
+						</button>
+						<div className="dropdown-content1">
+							<MenuThree />
+						</div>
+					</div>
+					<div className="dropdown1">
+						<button className="dropbtn1 lii link2">
+							Resources
+							{/* <i className="fa fa-angle-down"></i> */}
+							<HiChevronDown size={20} />
+						</button>
+						<div className="dropdown-content1">
+							<MenuFour />
+						</div>
+					</div>
 				</div>
+				<form className="form-inline my-2 my-lg-0">
+					<Link
+						className="bg-theme text-white btn my-2 my-sm-0"
+						href={`/contact`}
+					>
+						Contact Us
+					</Link>
+				</form>
 			</div>
 		</header>
 	)
 }
-
 const MobileMenu = ({ onClose }) => {
 	return (
 		<div className="mobile-menu">

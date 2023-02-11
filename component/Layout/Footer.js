@@ -16,14 +16,14 @@ export default function Footer() {
 								<h6 className="widget-title">Explore</h6>
 								<ul className="user-links">
 									<li>
-										<Link href="#">Home</Link>
+										<Link href="/">Home</Link>
 									</li>
 									<li>
-										<Link href="#">About Us</Link>
+										<Link href="/about">About Us</Link>
 									</li>
 									<li>
-										<Link href="#">
-											Co-Operate Governance
+										<Link href="/governance">
+											Corporate Governance
 										</Link>
 									</li>
 								</ul>
@@ -34,12 +34,12 @@ export default function Footer() {
 								<h6 className="widget-title">Quick Links</h6>
 								<ul className="user-links">
 									<li>
-										<Link href="#">
+										<Link href="/investment">
 											Our Investment Philosophy
 										</Link>
 									</li>
 									<li>
-										<Link href="#">
+										<Link href="/resources">
 											News, Media & Resources
 										</Link>
 									</li>
@@ -51,7 +51,9 @@ export default function Footer() {
 								<h6 className="widget-title">Support</h6>
 								<ul className="user-links">
 									<li>
-										<Link href="#">Give us feedback</Link>
+										<Link href="/contact">
+											Give us feedback
+										</Link>
 									</li>
 								</ul>
 							</div>
@@ -61,8 +63,9 @@ export default function Footer() {
 							<div className="footer-widget contacts-widget">
 								<h6 className="widget-title">Contact</h6>
 								<div className="text">
-									Tower 2 BOI Bldg, Plot 256 A O., Herbert
-									Macaulay Way, CBD, Abuja
+									Tower 2 Bank of Industry (BOI) building plot
+									256 A O. off Herbert Macaulay way Central
+									Business District, Abuja
 								</div>
 								<ul className="contact-info">
 									<li>
@@ -74,8 +77,8 @@ export default function Footer() {
 									</li>
 									<li>
 										{/* <BsFillTelephoneFill /> */}
-										<a href="tel:0916-194-9158">
-											0916-194-9158
+										<a href="tel:0700-2255-6634">
+											(0700-2255-6634)
 										</a>
 										<br />
 									</li>
@@ -95,7 +98,7 @@ export default function Footer() {
 								src="/img/flag.png"
 								className="mx-1 bg-white rounded-circle"
 							/>
-							© 2023 MOFI. All right reserved.
+							© 2023 Copyright <a href="www.mofi.com.ng">MOFI</a>
 						</div>
 						<div className="copyright-text col-lg-4 col-sm-12">
 							<ul className="nav">

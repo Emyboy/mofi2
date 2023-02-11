@@ -1,31 +1,49 @@
 import Data from '@/Data'
 import React, { useState } from 'react'
 import { Modal } from 'react-bootstrap'
+import Metrics from './Metrics'
 
 export default function PhilosophyPortfolioCompanies() {
+	const cats = [
+		'Infrastructure',
+		`Financial Services`,
+		`Services`,
+		`Industrials`,
+		`Energy & Extractives`,
+	]
+	const [activeCategory, setActiveCategory] = useState(cats[0])
+
 	return (
 		<section id="portfolio-companies">
 			<div className="container pt-0">
 				<h3 className="font-weight-normal">Our Portfolio Companies</h3>
 				<div className="d-flex mb-5">
-					<EachNav text={`Infrastructure`} active />
-					<EachNav text={`Financial Services`} />
-					<EachNav text={`Services`} />
-					<EachNav text={`Industrials`} />
-					<EachNav text={`Energy & Extractives`} />
+					{cats.map((val) => {
+						return (
+							<EachNav
+								text={val}
+								active={activeCategory === val}
+								onClick={() => setActiveCategory(val)}
+							/>
+						)
+					})}
 				</div>
 				<br />
 				<br />
 				<div className="row">
 					{Data.companies.map((val, i) => {
-						return (
-							<EachCompany
-								heading={val.title}
-								subHeading={val.category}
-								img={val.img}
-								description={val.description}
-							/>
-						)
+						if (val.category === activeCategory) {
+							return (
+								<EachCompany
+									heading={val.title}
+									subHeading={val.category}
+									img={val.img}
+									description={val.description}
+									company={val}
+									index={i}
+								/>
+							)
+						}
 					})}
 				</div>
 			</div>
@@ -38,7 +56,9 @@ const EachNav = ({ text, active, onClick }) => {
 		<button
 			onClick={onClick}
 			className={`mx-2 btn py-2 ${
-				active ? 'bg-theme text-white' : 'text-theme bg-theme-light'
+				active
+					? 'bg-theme text-white fw-bold'
+					: 'text-theme bg-theme-light'
 			}`}
 		>
 			{text}
@@ -46,7 +66,7 @@ const EachNav = ({ text, active, onClick }) => {
 	)
 }
 
-const EachCompany = ({ heading, subHeading, img, description }) => {
+const EachCompany = ({ heading, subHeading, img, description, company, index }) => {
 	const [show, setShow] = useState(false)
 
 	return (
@@ -55,51 +75,14 @@ const EachCompany = ({ heading, subHeading, img, description }) => {
 				<Modal.Header closeButton>
 					<Modal.Title>Learn More</Modal.Title>
 				</Modal.Header>
-				<Modal.Body>
+				<Modal.Body className='text-center'>
 					<img src={img} width={140} className="mb-3" />
 					{
-						<div className="col-sm-12 col-md-7">
 							<p>{description}</p>
-						</div>
 					}
 					<br />
-					{/* <div className="row">
-						<div class="col-md-5 col-sm-12">
-							<div className="card bg-theme-light w-100">
-								<h6 className="mb-0">Operation & Governance</h6>
-							</div>
-							<table className="table table-bordered cart-total">
-								<tbody>
-									<tr>
-										<td>CAC Compliance</td>
-										<td> </td>
-										<td>MOFI Board Rep</td>
-										<td> </td>
-									</tr>
-									<tr>
-										<td>MOFI Shareholding</td>
-										<td> </td>
-										<td>Operation cluster</td>
-										<td> </td>
-									</tr>
-									<tr>
-										<td>Total Board Members</td>
-										<td> </td>
-										<td>Adequate Operating Structure</td>
-										<td> </td>
-									</tr>
-								</tbody>
-							</table>
-							<a
-								class="theme-btn btn-style-one"
-								href="shop-checkout.html"
-							>
-								<span class="btn-title">
-									Proceed to Checkout
-								</span>{' '}
-							</a>{' '}
-						</div>
-					</div> */}
+					{/* <Metrics company={company} /> */}
+					<img src={company.metrix} width={700} />
 				</Modal.Body>
 			</Modal>
 			<div

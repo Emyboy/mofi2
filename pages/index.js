@@ -25,6 +25,7 @@ export default function index() {
 								style={{
 									fontWeight: 'normal',
 									lineHeight: '79px',
+									fontSize: '51px',
 								}}
 							>
 								Investing in{' '}
@@ -36,12 +37,12 @@ export default function index() {
 							</h1>
 							<div className="page-breadcrumb py-3">
 								<p className="text-white">
-									Investing in tomorrow, today is a smart
-									choice for a brighter future. With careful
-									planning
-									<br /> and a long-term perspective, you can
-									secure your financial future and achieve
-									your goals.
+									MOFI is the investment vehicle of the
+									Federal Government of Nigeria. We are
+									helping to
+									<br /> transform Nigeria’s economy, making
+									it more diverse, prosperous, and optimised
+									for investments and growth.
 								</p>
 							</div>
 							<div className="page-breadcrumb">
@@ -51,7 +52,6 @@ export default function index() {
 								>
 									Learn More
 								</Link>
-								
 							</div>
 						</div>
 					</div>

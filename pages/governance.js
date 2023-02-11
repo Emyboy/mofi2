@@ -1,6 +1,8 @@
 import Layout from '@/component/Layout/Layout'
 import Data from '@/Data'
-import React from 'react'
+import React, { useState } from 'react'
+import { Modal } from 'react-bootstrap'
+import ReactHtmlParser from 'react-html-parser'
 
 export default function governance() {
 	return (
@@ -29,8 +31,24 @@ export default function governance() {
 }
 
 const EachGov = ({ person }) => {
+	const [showInfo, setShowInfo] = useState(false)
+
 	return (
 		<div className="col-md-4 mb-4">
+			{person?.description && (
+				<Modal
+					show={showInfo}
+					onHide={() => setShowInfo(false)}
+					size={'lg'}
+				>
+					<Modal.Header closeButton>
+						<Modal.Title>Read More</Modal.Title>
+					</Modal.Header>
+					<Modal.Body>
+						{ReactHtmlParser(person?.description)}
+					</Modal.Body>
+				</Modal>
+			)}
 			<div
 				className="card bg-dark mx-3 bg-img image-1 overlay-anim wow fadeInUp animated"
 				style={{
@@ -38,6 +56,7 @@ const EachGov = ({ person }) => {
 					height: '430px',
 					backgroundImage: `url(${person?.img})`,
 				}}
+				onClick={() => setShowInfo(true)}
 			>
 				<div
 					className="overlay2 p-4"
@@ -60,6 +79,14 @@ const EachGov = ({ person }) => {
 						</p>
 					)}
 					<p className="fw-bold text-white m-0">{person.position} </p>
+					{person?.description && (
+						<p
+							className="m-0 text-white fw-light"
+							style={{ cursor: 'pointer' }}
+						>
+							Read More -
+						</p>
+					)}
 				</div>
 			</div>
 		</div>
