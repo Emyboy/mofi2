@@ -5,7 +5,7 @@ export default function MissionAndVision() {
 	return (
 		<section>
 			<div className="container">
-				<h3 className='text-theme mb-5'>Our Corporate Philosophy</h3>
+				<h3 className="text-theme mb-5">Our Corporate Philosophy</h3>
 				<br />
 				<div className="row">
 					<div className="col-md-6 col-sm-12">
@@ -14,7 +14,7 @@ export default function MissionAndVision() {
 								<h4 className="font-weight-normal mb-4 text-white">
 									<TbCircleCheck size={30} /> Vision
 								</h4>
-								<p className='text-white'>
+								<p className="text-white">
 									To become a world-class active investment
 									vehicle that creates wealth for all
 									generations and contributes to the
@@ -29,40 +29,40 @@ export default function MissionAndVision() {
 								<h4 className="font-weight-normal mb-4 text-white">
 									<TbCircleCheck size={30} /> Mission
 								</h4>
-								<p className='text-white'>
+								{/* <p className='text-white'>
 									To play a leading role in driving sustained
 									economic development for the benefit of all
 									Nigerians through:
-								</p>
+								</p> */}
 								<ul>
 									<li
 										style={{ listStyle: 'outside' }}
 										className="text-white"
 									>
-										Enhancing the financial performance of
+										Enhance the financial performance of
 										portfolio companies.
 									</li>
 									<li
 										style={{ listStyle: 'outside' }}
 										className="text-white"
 									>
-										Investing with the intent of preserving
-										socioeconomic value through catalyzing
+										Invest with the intent of preserving
+										socioeconomic value through catalysing
 										growth in priority sectors.
 									</li>
 									<li
 										style={{ listStyle: 'outside' }}
 										className="text-white"
 									>
-										Developing a culture of performance and
+										Develop a culture of performance and
 										efficiency.
 									</li>
 									<li
 										style={{ listStyle: 'outside' }}
 										className="text-white"
 									>
-										Building a prosperous nation that
-										attracts investors.
+										Build a prosperous nation that attracts
+										investors.
 									</li>
 								</ul>
 							</div>

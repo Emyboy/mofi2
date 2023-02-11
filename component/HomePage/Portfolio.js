@@ -31,11 +31,12 @@ export default function Portfolio() {
 										<div className="d-flex">
 											{/* <Bin /> */}
 											<h3 className=" font-weight-normal text-white">
-												₦ 37 bn
+												₦ 18 TRN.
 											</h3>
 										</div>
 										<p className=" text-white fw-light">
-											Dividend contribution
+											Total estimated value of MOFI's
+											holdings
 										</p>
 									</div>
 								</div>
@@ -46,12 +47,11 @@ export default function Portfolio() {
 										<div className="d-flex">
 											{/* <Bin /> */}
 											<h3 className=" font-weight-normal text-white">
-												₦ 18 bn
+												{`>`} 15,000
 											</h3>
 										</div>
 										<p className=" text-white fw-light">
-											Total value of top 10 MOFI portfolio
-											companies
+											People Employed
 										</p>
 									</div>
 								</div>
@@ -62,7 +62,7 @@ export default function Portfolio() {
 								<div className="d-flex justify-content-center">
 									{/* <Bin /> */}
 									<h3 className=" font-weight-normal text-white">
-										 52 Entities
+										52 Entities
 									</h3>
 								</div>
 								<p className=" text-white fw-light">
