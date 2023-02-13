@@ -94,7 +94,7 @@ export default function Footer() {
 			<div className="footer-bottom">
 				<div className="auto-container">
 					<div className="inner-container row justify-content-between">
-						<div className="copyright-text col-lg-4 col-sm-12">
+						<div className="copyright-text col-lg-3 col-sm-12">
 							<img
 								alg="flag"
 								src="/img/flag.png"
@@ -102,11 +102,11 @@ export default function Footer() {
 							/>
 							© 2023 Copyright <a href="www.mofi.com.ng">MOFI</a>
 						</div>
-						<div className="copyright-text col-lg-4 col-sm-12">
-							<ul className="nav">
-								<li className="nav-item d-flex">
+						<div className="copyright-text col-lg-3  col-sm-12">
+							<ul className="nav ">
+								<li className="nav-item d-flex ">
 									<a
-										className="nav-link text-white fw-light"
+										className="nav-link fw-light"
 										aria-current="page"
 										target={`_blank`}
 										href="https://twitter.com/mofinigeria"
@@ -114,7 +114,7 @@ export default function Footer() {
 										<FaTwitter size={iconSize} />
 									</a>
 									<a
-										className="nav-link text-white fw-light"
+										className="nav-link fw-light"
 										aria-current="page"
 										href="https://www.instagram.com/mofinigeria/"
 										target={`_blank`}
@@ -122,7 +122,7 @@ export default function Footer() {
 										<FaInstagram size={iconSize} />
 									</a>
 									<a
-										className="nav-link text-white fw-light"
+										className="nav-link fw-light"
 										aria-current="page"
 										target={'_blank'}
 										href="https://www.facebook.com/profile.php?id=100080254151279&mibextid=ZbWKwL"
@@ -130,7 +130,7 @@ export default function Footer() {
 										<FaFacebook size={iconSize} />
 									</a>
 									<a
-										className="nav-link text-white fw-light"
+										className="nav-link fw-light"
 										aria-current="page"
 										href="https://www.linkedin.com/in/ministry-of-finance-incorporated-nigeria-568054237"
 										target={`_blank`}
