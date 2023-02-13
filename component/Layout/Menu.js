@@ -41,7 +41,7 @@ export const MenuOne = () => {
 
 													<div className="col-lg-2 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -70,7 +70,7 @@ export const MenuOne = () => {
 
 													<div className="col-lg-1 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -99,7 +99,7 @@ export const MenuOne = () => {
 
 													<div className="col-lg-1 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -127,7 +127,7 @@ export const MenuOne = () => {
 
 													<div className="col-lg-1 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -169,7 +169,7 @@ export const MenuTwo = () => {
 							</div>
 							<div className="col-lg-7">
 								<div className="row">
-									<div className="col-lg-3  column-bg2">
+									{/* <div className="col-lg-3  column-bg2">
 										<div className="p-2">
 											<img
 												src="./img/Corporate.svg"
@@ -188,7 +188,7 @@ export const MenuTwo = () => {
 
 													<div className="col-lg-2 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -197,8 +197,8 @@ export const MenuTwo = () => {
 												</div>
 											</Link>
 										</div>
-									</div>
-									<div className="col-lg-3 column-bg1">
+									</div> */}
+									<div className="col-lg-4 column-bg2">
 										<div className="p-2">
 											<img
 												src="./img/Governance.svg"
@@ -216,7 +216,7 @@ export const MenuTwo = () => {
 
 													<div className="col-lg-1 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -226,7 +226,7 @@ export const MenuTwo = () => {
 											</Link>
 										</div>
 									</div>
-									<div className="col-lg-3 column-bg2">
+									<div className="col-lg-4 column-bg1">
 										<div className="p-2">
 											<img
 												src="./img/Board.svg"
@@ -244,7 +244,7 @@ export const MenuTwo = () => {
 
 													<div className="col-lg-1 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -254,7 +254,7 @@ export const MenuTwo = () => {
 											</Link>
 										</div>
 									</div>
-									<div className="col-lg-3 column-bg1">
+									<div className="col-lg-4 column-bg2">
 										<div className="p-2">
 											<img
 												src="./img/Executive.svg"
@@ -266,13 +266,13 @@ export const MenuTwo = () => {
 										<div className="mt-2">
 											<Link href="/governance">
 												<div className="row d-flex arrow1">
-													<p className="link2 col-lg-10 p-0 text-white">
-														Executive
+													<p className="link2 col-lg-11 p-0 text-white">
+														Executive Mangement
 													</p>
 
-													<div className="col-lg-2 p-0">
+													<div className="col-lg-1 p-0">
 														<img
-															src="./img/frame.svg"
+															src="./img/Frame.svg"
 															// className="w-5"
 															width={'28px'}
 															alt=""
@@ -299,7 +299,7 @@ export const MenuThree = () => {
 				<div className="bg-menu">
 					<div className="col-lg-12">
 						<div className="row">
-							<div className="col-lg-8 column-0">
+							<div className="col-lg-7 column-0">
 								<div className="col-lg-8">
 									<div className="h4 text-white pb-3 fw-bold">
 										Investment
@@ -313,6 +313,7 @@ export const MenuThree = () => {
 									</p>
 								</div>
 							</div>
+
 							<div className="col-lg-2 column-bg">
 								<div className="p-2">
 									<img
@@ -324,14 +325,14 @@ export const MenuThree = () => {
 
 								<div className="mt-2">
 									<Link href="/investment">
-										<div className="row d-flex arrow1 p-0">
+										<div className="row d-flex arrow1">
 											<p className="link2 col-lg-11 p-0 text-white">
 												Portfolio Companies
 											</p>
 
 											<div className="col-lg-1 p-0">
 												<img
-													src="./img/frame.svg"
+													src="./img/Frame.svg"
 													// className="w-5"
 													width={'28px'}
 													alt=""
@@ -341,7 +342,7 @@ export const MenuThree = () => {
 									</Link>
 								</div>
 							</div>
-							<div className="col-lg-2 column-bg1">
+							<div className="col-lg-3 column-bg1">
 								<div className="p-2">
 									<img
 										src="./img/Invest.svg"
@@ -352,14 +353,14 @@ export const MenuThree = () => {
 
 								<div className="mt-2">
 									<Link href="/investment">
-										<div className="row d-flex arrow1">
-											<p className="link2 col-lg-10 p-0 text-white">
+										<div className="row d-flex arrow1 p-0">
+											<p className="link2 col-lg-11 p-0 text-white">
 												Investment Philosophy
 											</p>
 
-											<div className="col-lg-2">
+											<div className="col-lg-1 p-0">
 												<img
-													src="./img/frame.svg"
+													src="./img/Frame.svg"
 													// className="w-5"
 													width={'28px'}
 													alt=""
@@ -401,7 +402,7 @@ export const MenuFour = () => {
 							<div className="col-lg-3 column-bg">
 								<div className="p-2">
 									<img
-										src="./img/port.svg"
+										src="./img/Port.svg"
 										// className="w-100"
 										width={'48px'}
 										alt=""
@@ -410,13 +411,13 @@ export const MenuFour = () => {
 								<div className="mt-2">
 									<Link href="/resources">
 										<div className="row d-flex arrow1 p-0">
-											<p className="link col-lg-11 p-0 text-white">
+											<p className="link2 col-lg-11 p-0 text-white">
 												News/Media
 											</p>
 
 											<div className="col-lg-1 p-0">
 												<img
-													src="./img/frame.svg"
+													src="./img/Frame.svg"
 													// className="w-5"
 													width={'28px'}
 													alt=""
@@ -444,7 +445,7 @@ export const MenuFour = () => {
 
 										<div className="col-lg-5 p-0">
 											<img
-												src="./img/frame.svg"
+												src="./img/Frame.svg"
 												// className="w-5"
 												width={'28px'}
 												alt=""

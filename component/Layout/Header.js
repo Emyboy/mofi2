@@ -156,7 +156,6 @@ export default function Header({ pageName }) {
 		</header>
 	)
 }
-
 const MobileMenu = ({ onClose }) => {
 	return (
 		<div className="mobile-menu">
