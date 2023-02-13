@@ -1,9 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
-import { BsFillTelephoneFill } from 'react-icons/bs'
-import { MdMail } from 'react-icons/md'
+import { FaTwitter, FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa'
 
 export default function Footer() {
+
+	const iconSize = 20;
+
 	return (
 		<footer className="main-footer">
 			<div className="bg-pattern"></div>
@@ -106,30 +108,34 @@ export default function Footer() {
 									<a
 										className="nav-link text-white fw-light"
 										aria-current="page"
-										href="#"
+										target={`_blank`}
+										href="https://twitter.com/mofinigeria"
 									>
-										Twitter
+										<FaTwitter size={iconSize} />
 									</a>
 									<a
 										className="nav-link text-white fw-light"
 										aria-current="page"
-										href="#"
+										href="https://www.instagram.com/mofinigeria/"
+										target={`_blank`}
 									>
-										Instagram
+										<FaInstagram size={iconSize} />
 									</a>
 									<a
 										className="nav-link text-white fw-light"
 										aria-current="page"
-										href="#"
+										target={'_blank'}
+										href="https://www.facebook.com/profile.php?id=100080254151279&mibextid=ZbWKwL"
 									>
-										Facebook
+										<FaFacebook size={iconSize} />
 									</a>
 									<a
 										className="nav-link text-white fw-light"
 										aria-current="page"
-										href="#"
+										href="https://www.linkedin.com/in/ministry-of-finance-incorporated-nigeria-568054237"
+										target={`_blank`}
 									>
-										Linkedin
+										<FaLinkedin size={iconSize} />
 									</a>
 								</li>
 							</ul>
