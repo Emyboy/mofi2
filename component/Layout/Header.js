@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Img from 'next/image'
 import Link from 'next/link'
-import { useWindowSize } from 'react-use'
+import { useWindowSize, useScroll } from 'react-use'
 import Constants from '@/constants'
 import { HiMenuAlt3 } from 'react-icons/hi'
 import { HiChevronDown } from 'react-icons/hi'
@@ -15,6 +15,7 @@ import {
 	BsTwitter,
 	BsX,
 } from 'react-icons/bs'
+import { StickyContainer, Sticky } from 'react-sticky'
 
 const navs = [
 	{
@@ -42,6 +43,7 @@ export default function Header({ pageName }) {
 	const [show, setShow] = useState(false)
 	const { width } = useWindowSize()
 	const [showNav, setShowNav] = useState(false)
+
 
 	const toggleSideNav = () => {
 		setShowNav(!showNav)
@@ -84,76 +86,95 @@ export default function Header({ pageName }) {
 	}
 
 	return (
-		<header className="navbar navbar-expand-lg navbar-light bg-light px-5 py-3">
-			<div
-				className="collapse navbar-collapse justify-content-between"
-				id="navbarTogglerDemo01"
-			>
-				<Link className="navbar-brand" href="/">
-					<Img src="/img/logom.svg" width={120} height={100} />
-				</Link>
-				<div className="navbar1 ">
-					<Link
-						href="/"
-						className={`link2 lii ${
-							pageName === 'home' && 'active1'
-						}`}
+		// <StickyContainer>
+		// 	<Sticky topOffset={80}>
+		// 		{({
+		// 			style,
+		// 			isSticky,
+		// 			wasSticky,
+		// 			distanceFromTop,
+		// 			distanceFromBottom,
+		// 			calculatedHeight,
+		// 		}) => (
+					<header
+						className={`navbar navbar-expand-lg navbar-light bg-light px-5 py-3 `}
 					>
-						Home
-					</Link>
+						<div
+							className="collapse navbar-collapse justify-content-between"
+							id="navbarTogglerDemo01"
+						>
+							<Link className="navbar-brand" href="/">
+								<Img
+									src="/img/logom.svg"
+									width={120}
+									height={100}
+								/>
+							</Link>
+							<div className="navbar1 ">
+								<Link
+									href="/"
+									className={`link2 lii ${
+										pageName === 'home' && 'active1'
+									}`}
+								>
+									Home
+								</Link>
 
-					<div className="dropdown1">
-						<button className="dropbtn1 lii link2">
-							About
-							{/* <i className="fa fa-angle-down"></i> */}
-							<HiChevronDown size={20} />
-							{/* <FontAwesomeIcon icon={faAngle} /> */}
-						</button>
-						<div className="dropdown-content1">
-							<MenuOne />
+								<div className="dropdown1">
+									<button className="dropbtn1 lii link2">
+										About
+										{/* <i className="fa fa-angle-down"></i> */}
+										<HiChevronDown size={20} />
+										{/* <FontAwesomeIcon icon={faAngle} /> */}
+									</button>
+									<div className="dropdown-content1">
+										<MenuOne />
+									</div>
+								</div>
+								<div className="dropdown1">
+									<button className="dropbtn1 lii link2">
+										Governance
+										{/* <i className="fa fa-angle-down"></i> */}
+										<HiChevronDown size={20} />
+									</button>
+									<div className="dropdown-content1">
+										<MenuTwo />
+									</div>
+								</div>
+								<div className="dropdown1">
+									<button className="dropbtn1 lii link2">
+										Investment
+										{/* <i className="fa fa-angle-down"></i> */}
+										<HiChevronDown size={20} />
+									</button>
+									<div className="dropdown-content1">
+										<MenuThree />
+									</div>
+								</div>
+								<div className="dropdown1">
+									<button className="dropbtn1 lii link2">
+										Resources
+										{/* <i className="fa fa-angle-down"></i> */}
+										<HiChevronDown size={20} />
+									</button>
+									<div className="dropdown-content1">
+										<MenuFour />
+									</div>
+								</div>
+							</div>
+							<form className="form-inline my-2 my-lg-0">
+								<Link
+									className="bg-theme text-white btn my-2 my-sm-0"
+									href={`/contact`}
+								>
+									Contact Us
+								</Link>
+							</form>
 						</div>
-					</div>
-					<div className="dropdown1">
-						<button className="dropbtn1 lii link2">
-							Governance
-							{/* <i className="fa fa-angle-down"></i> */}
-							<HiChevronDown size={20} />
-						</button>
-						<div className="dropdown-content1">
-							<MenuTwo />
-						</div>
-					</div>
-					<div className="dropdown1">
-						<button className="dropbtn1 lii link2">
-							Investment
-							{/* <i className="fa fa-angle-down"></i> */}
-							<HiChevronDown size={20} />
-						</button>
-						<div className="dropdown-content1">
-							<MenuThree />
-						</div>
-					</div>
-					<div className="dropdown1">
-						<button className="dropbtn1 lii link2">
-							Resources
-							{/* <i className="fa fa-angle-down"></i> */}
-							<HiChevronDown size={20} />
-						</button>
-						<div className="dropdown-content1">
-							<MenuFour />
-						</div>
-					</div>
-				</div>
-				<form className="form-inline my-2 my-lg-0">
-					<Link
-						className="bg-theme text-white btn my-2 my-sm-0"
-						href={`/contact`}
-					>
-						Contact Us
-					</Link>
-				</form>
-			</div>
-		</header>
+					</header>
+		// 		)}
+		// 	</Sticky>
+		// </StickyContainer>
 	)
 }
 const MobileMenu = ({ onClose }) => {

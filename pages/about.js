@@ -53,7 +53,7 @@ export default function about() {
 
 const EachAboutCard = ({ heading, body, img }) => {
     return (
-		<div className="col-sm-12 col-md-4 mb-3">
+		<div className="col-sm-12 col-md-12 col-lg-4 mb-3">
 			<div className="card bg-theme h-100">
 				<div className="card-body p-5">
 					<h6 className="fw-bold text-white">{heading}</h6>
