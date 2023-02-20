@@ -88,7 +88,7 @@ export default {
 `,
 				},
 				{
-					img: `/img/people2/ttk.jpg`,
+					img: `/img/whats/Armstrong-Takang.jpeg`,
 					title: 'Dr Armstrong Takang (PhD)',
 					subTitle: null,
 					position: 'CEO (Chief Executive Officer)',
@@ -105,7 +105,7 @@ export default {
 					`,
 				},
 				{
-					img: `/img/people2/Eric-01.jpg`,
+					img: `/img/whats/Eric-Olo.jpeg`,
 					title: 'Mr Eric Olo',
 					subTitle: null,
 					position: 'CPO (Chief Portfolio Officer)',
@@ -121,7 +121,7 @@ export default {
 					`,
 				},
 				{
-					img: `/img/people/Owonubi-01.jpg`,
+					img: `/img/whats/Kemi-Owonubi.jpeg`,
 					title: 'Mrs Oluwakemi Owonubi',
 					subTitle: null,
 					position: 'CRO (Chief Risk Officer)',
@@ -204,19 +204,19 @@ export default {
 				'Management executives, comprising MOFI’s leadership, oversee all business activities while ensuring growth and stability across all portfolios.',
 			people: [
 				{
-					img: `/img/people2/ttk.jpg`,
+					img: `/img/whats/Armstrong-Takang.jpeg`,
 					title: 'Dr Armstrong Takang (PhD)',
 					subTitle: `CEO (Chief Executive Officer)`,
 					position: null,
 				},
 				{
-					img: '/img/people2/Eric-01.jpg',
+					img: '/img/whats/Eric-Olo.jpeg',
 					title: 'Mr Eric Olo',
 					subTitle: `CPO (Chief Portfolio Officer)`,
 					position: null,
 				},
 				{
-					img: `/img/people2/Yakubu-01.jpg`,
+					img: `/img/whats/Sani-Yakubu.jpeg`,
 					title: 'Mr Sani Yakubu',
 					subTitle: `CIO (Chief Investment Officer)`,
 					position: null,
@@ -230,13 +230,13 @@ export default {
 					`,
 				},
 				{
-					img: `/img/people/Owonubi-01.jpg`,
+					img: `/img/whats/Kemi-Owonubi.jpeg`,
 					title: 'Mrs Oluwakemi Owonubi',
 					subTitle: `CRO (Chief Risk Officer)`,
 					position: null,
 				},
 				{
-					img: `/img/people2/AbdulQawil.jpg`,
+					img: `/img/whats/Abdulqawil-Bello.jpeg`,
 					title: 'Mr Abdulqawil Bello',
 					subTitle: `Company Secretary/Chief Legal Officer`,
 					position: null,
