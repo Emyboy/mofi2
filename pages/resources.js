@@ -38,7 +38,6 @@ export default function resources() {
 				</div>
 			</section>
 			<TopNews />
-			<TopNews />
 		</Layout>
   )
 }
