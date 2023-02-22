@@ -1,5 +1,6 @@
 import { Media } from '@/Media'
 import Layout from '@/component/Layout/Layout'
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React from 'react'
 import renderHTML from 'react-render-html'
@@ -66,8 +67,11 @@ export default function mediaDetails() {
 							</div>
 						</div>
 						<div className="col-xl-4 col-lg-5">
-							<div className="sidebar">
-								<div className="sidebar__single sidebar__post">
+							<div className="sidebar ">
+								<div
+									className="sidebar__single sidebar__post bg-theme-light"
+									style={{ zIndex: 0 }}
+								>
 									<h3 className="sidebar__title">
 										Latest Posts
 									</h3>
@@ -77,17 +81,17 @@ export default function mediaDetails() {
 												<li key={`med-${index}`}>
 													<div className="sidebar__post-image">
 														{' '}
-														<img
-															src="images/resource/news-1.jpg"
-															alt=""
-														/>{' '}
 														<div
 															style={{
 																backgroundImage: `url(${med.img})`,
 																height: '100px',
-																borderRadius: '10px',
-                                                                backgroundSize: 'cover',
-                                                                backgroundPosition: 'center',
+																borderRadius:
+																	'10px',
+																backgroundSize:
+																	'cover',
+																backgroundPosition:
+																	'center',
+																width: '97px',
 															}}
 														/>
 													</div>
@@ -98,9 +102,11 @@ export default function mediaDetails() {
 																<i className="fas fa-user-circle"></i>
 																Admin
 															</span>{' '} */}
-															<a href={`/media/${med.title}/${index}`}>
+															<Link
+																href={`/media/${med.title}/${index}`}
+															>
 																{med.title}
-															</a>
+															</Link>
 														</h3>
 													</div>
 												</li>
