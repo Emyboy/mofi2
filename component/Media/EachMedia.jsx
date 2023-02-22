@@ -9,7 +9,15 @@ export default function EachMedia({ media, index }) {
 				<div className="image-box">
 					<figure className="image">
 						<Link href={`/media/${media?.title}/${index}`}>
-							<img src={media?.img} alt="" />
+							{/* <img src={media?.img} alt="" /> */}
+							<div
+								style={{
+									backgroundImage: `url(${media?.img})`,
+									backgroundSize: 'cover',
+									backgroundPosition: 'center',
+									height: '250px',
+								}}
+							/>
 						</Link>
 					</figure>
 				</div>
@@ -31,7 +39,10 @@ export default function EachMedia({ media, index }) {
 						href={`/media/${media?.title}/${index}`}
 						className="read-more"
 					>
-						<i><BsArrowRight /></i> Read More
+						<i>
+							<BsArrowRight />
+						</i>{' '}
+						Read More
 					</Link>
 				</div>
 			</div>
