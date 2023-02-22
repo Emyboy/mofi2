@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import { BsArrowRight } from 'react-icons/bs'
 
 export default function EachMedia({ media, index }) {
 	return (
@@ -30,7 +31,7 @@ export default function EachMedia({ media, index }) {
 						href={`/media/${media?.title}/${index}`}
 						className="read-more"
 					>
-						<i className="fa fa-long-arrow-alt-right"></i> Read More
+						<i><BsArrowRight /></i> Read More
 					</Link>
 				</div>
 			</div>
