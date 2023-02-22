@@ -25,13 +25,17 @@ export default function mediaDetails() {
 	return (
 		<Layout>
 			<Head>
-				<meta name="description" content="Free Web tutorials" />
-				<meta name="keywords" content="HTML, CSS, JavaScript" />
-				<meta name="author" content="John Doe" />
+				<title>{Media[renderIndex()].title} | MoFI</title>
+				<meta name="description" content={Media[renderIndex()].title} />
+				<meta property="og:image" content={Media[renderIndex()].img} />
 				<meta
-					name="viewport"
-					content="width=device-width, initial-scale=1.0"
-				></meta>
+					name="keywords"
+					content="MoFI, news, finance, nigeria, transport, education"
+				/>
+				<meta
+					name="author"
+					content="Ministry of Finance Incorporated"
+				/>
 			</Head>
 			<section className="blog-details">
 				<div className="container">
