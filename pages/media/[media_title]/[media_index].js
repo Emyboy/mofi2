@@ -1,5 +1,6 @@
 import { Media } from '@/Media'
 import Layout from '@/component/Layout/Layout'
+import { urlToSlug } from '@/component/Media/EachMedia'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React from 'react'
@@ -103,7 +104,7 @@ export default function mediaDetails() {
 																Admin
 															</span>{' '} */}
 															<Link
-																href={`/media/${med.title}/${index}`}
+																href={`/media/${urlToSlug(med.title)}/${index}`}
 															>
 																{med.title}
 															</Link>
