@@ -26,6 +26,10 @@ export default function mediaDetails() {
 		<Layout>
 			<Head>
 				<title>{Media[renderIndex()].title} | MoFI</title>
+				<meta
+					property="og:title"
+					content={Media[renderIndex()].title}
+				/>
 				<meta name="description" content={Media[renderIndex()].title} />
 				<meta property="og:image" content={Media[renderIndex()].img} />
 				<meta
