@@ -16,6 +16,7 @@
     "react-dom": "18.2.0",
     "react-html-parser": "^2.0.2",
     "react-icons": "^4.7.1",
+    "react-render-html": "^0.6.0",
     "react-sticky": "^6.0.3",
     "react-sticky-el": "^2.0.9",
     "react-use": "^17.4.0"
