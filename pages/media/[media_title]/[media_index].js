@@ -1,5 +1,7 @@
 import { Media } from '@/Media'
 import Layout from '@/component/Layout/Layout'
+import { urlToSlug } from '@/component/Media/EachMedia'
+import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React from 'react'
@@ -22,6 +24,23 @@ export default function mediaDetails() {
 
 	return (
 		<Layout>
+			<Head>
+				<title>{Media[renderIndex()].title} | MoFI</title>
+				<meta
+					property="og:title"
+					content={Media[renderIndex()].title}
+				/>
+				<meta name="description" content={Media[renderIndex()].title} />
+				<meta property="og:image" content={Media[renderIndex()].img} />
+				<meta
+					name="keywords"
+					content="MoFI, news, finance, nigeria, transport, education"
+				/>
+				<meta
+					name="author"
+					content="Ministry of Finance Incorporated"
+				/>
+			</Head>
 			<section className="blog-details">
 				<div className="container">
 					<div className="row">
@@ -60,7 +79,7 @@ export default function mediaDetails() {
 										</li>
 									</ul> */}
 									<h3 className="blog-details__title">
-										Delivering the best web design agency
+										{Media[renderIndex()].title}
 									</h3>
 									{renderHTML(Media[renderIndex()].body)}
 								</div>
@@ -103,7 +122,9 @@ export default function mediaDetails() {
 																Admin
 															</span>{' '} */}
 															<Link
-																href={`/media/${med.title}/${index}`}
+																href={`/media/${urlToSlug(
+																	med.title
+																)}/${index}`}
 															>
 																{med.title}
 															</Link>
