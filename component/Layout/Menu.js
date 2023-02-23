@@ -409,7 +409,7 @@ export const MenuFour = () => {
 									/>
 								</div>
 								<div className="mt-2">
-									<Link href="/resources">
+									<Link href="/media">
 										<div className="row d-flex arrow1 p-0">
 											<p className="link2 col-lg-11 p-0 text-white">
 												News/Media

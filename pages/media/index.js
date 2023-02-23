@@ -15,12 +15,12 @@ export default function media() {
 			>
 				<div className="auto-container">
 					<div className="title-outer">
-						<h1 className="title">News</h1>
+						<h1 className="title">Media</h1>
 						<ul className="page-breadcrumb">
 							<li>
 								<Link href={`/`}>Home</Link>
 							</li>
-							<li>News</li>
+							<li>Media</li>
 						</ul>
 					</div>
 				</div>
