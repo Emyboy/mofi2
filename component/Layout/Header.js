@@ -105,7 +105,7 @@ export default function Header({ pageName }) {
 						>
 							<Link className="navbar-brand" href="/">
 								<Img
-									src="/img/logom.svg"
+									src="/logo.jpeg"
 									width={120}
 									height={100}
 								/>
