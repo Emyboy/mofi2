@@ -125,14 +125,14 @@ export default function Footer() {
 										className="nav-link fw-light"
 										aria-current="page"
 										target={'_blank'}
-										href="https://www.facebook.com/profile.php?id=100080254151279&mibextid=ZbWKwL"
+										href="https://www.facebook.com/MinistryofFinanceIncorporated"
 									>
 										<FaFacebook size={iconSize} />
 									</a>
 									<a
 										className="nav-link fw-light"
 										aria-current="page"
-										href="https://www.linkedin.com/in/ministry-of-finance-incorporated-nigeria-568054237"
+										href="https://www.linkedin.com/company/mofinigeria/"
 										target={`_blank`}
 									>
 										<FaLinkedin size={iconSize} />

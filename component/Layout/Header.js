@@ -97,7 +97,8 @@ export default function Header({ pageName }) {
 		// 			calculatedHeight,
 		// 		}) => (
 					<header
-						className={`navbar navbar-expand-lg navbar-light bg-light px-5 py-3 `}
+						className={`navbar navbar-expand-lg navbar-light bg-light px-5 py-3 fixed-top shadow`}
+						style={{ zIndex: 90 }}
 					>
 						<div
 							className="collapse navbar-collapse justify-content-between"
