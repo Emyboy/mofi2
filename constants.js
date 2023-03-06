@@ -1,5 +1,5 @@
 const Constants = {
-    tablet_width: 755,
+    tablet_width: 955,
 }
 
 
